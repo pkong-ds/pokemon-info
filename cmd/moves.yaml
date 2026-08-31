@@ -1,0 +1,3748 @@
+- id: 1
+  slug: pound
+  name: Pound
+  url: https://pokeapi.co/api/v2/move/1/
+- id: 2
+  slug: karate-chop
+  name: Karate Chop
+  url: https://pokeapi.co/api/v2/move/2/
+- id: 3
+  slug: double-slap
+  name: Double Slap
+  url: https://pokeapi.co/api/v2/move/3/
+- id: 4
+  slug: comet-punch
+  name: Comet Punch
+  url: https://pokeapi.co/api/v2/move/4/
+- id: 5
+  slug: mega-punch
+  name: Mega Punch
+  url: https://pokeapi.co/api/v2/move/5/
+- id: 6
+  slug: pay-day
+  name: Pay Day
+  url: https://pokeapi.co/api/v2/move/6/
+- id: 7
+  slug: fire-punch
+  name: Fire Punch
+  url: https://pokeapi.co/api/v2/move/7/
+- id: 8
+  slug: ice-punch
+  name: Ice Punch
+  url: https://pokeapi.co/api/v2/move/8/
+- id: 9
+  slug: thunder-punch
+  name: Thunder Punch
+  url: https://pokeapi.co/api/v2/move/9/
+- id: 10
+  slug: scratch
+  name: Scratch
+  url: https://pokeapi.co/api/v2/move/10/
+- id: 11
+  slug: vice-grip
+  name: Vice Grip
+  url: https://pokeapi.co/api/v2/move/11/
+- id: 12
+  slug: guillotine
+  name: Guillotine
+  url: https://pokeapi.co/api/v2/move/12/
+- id: 13
+  slug: razor-wind
+  name: Razor Wind
+  url: https://pokeapi.co/api/v2/move/13/
+- id: 14
+  slug: swords-dance
+  name: Swords Dance
+  url: https://pokeapi.co/api/v2/move/14/
+- id: 15
+  slug: cut
+  name: Cut
+  url: https://pokeapi.co/api/v2/move/15/
+- id: 16
+  slug: gust
+  name: Gust
+  url: https://pokeapi.co/api/v2/move/16/
+- id: 17
+  slug: wing-attack
+  name: Wing Attack
+  url: https://pokeapi.co/api/v2/move/17/
+- id: 18
+  slug: whirlwind
+  name: Whirlwind
+  url: https://pokeapi.co/api/v2/move/18/
+- id: 19
+  slug: fly
+  name: Fly
+  url: https://pokeapi.co/api/v2/move/19/
+- id: 20
+  slug: bind
+  name: Bind
+  url: https://pokeapi.co/api/v2/move/20/
+- id: 21
+  slug: slam
+  name: Slam
+  url: https://pokeapi.co/api/v2/move/21/
+- id: 22
+  slug: vine-whip
+  name: Vine Whip
+  url: https://pokeapi.co/api/v2/move/22/
+- id: 23
+  slug: stomp
+  name: Stomp
+  url: https://pokeapi.co/api/v2/move/23/
+- id: 24
+  slug: double-kick
+  name: Double Kick
+  url: https://pokeapi.co/api/v2/move/24/
+- id: 25
+  slug: mega-kick
+  name: Mega Kick
+  url: https://pokeapi.co/api/v2/move/25/
+- id: 26
+  slug: jump-kick
+  name: Jump Kick
+  url: https://pokeapi.co/api/v2/move/26/
+- id: 27
+  slug: rolling-kick
+  name: Rolling Kick
+  url: https://pokeapi.co/api/v2/move/27/
+- id: 28
+  slug: sand-attack
+  name: Sand Attack
+  url: https://pokeapi.co/api/v2/move/28/
+- id: 29
+  slug: headbutt
+  name: Headbutt
+  url: https://pokeapi.co/api/v2/move/29/
+- id: 30
+  slug: horn-attack
+  name: Horn Attack
+  url: https://pokeapi.co/api/v2/move/30/
+- id: 31
+  slug: fury-attack
+  name: Fury Attack
+  url: https://pokeapi.co/api/v2/move/31/
+- id: 32
+  slug: horn-drill
+  name: Horn Drill
+  url: https://pokeapi.co/api/v2/move/32/
+- id: 33
+  slug: tackle
+  name: Tackle
+  url: https://pokeapi.co/api/v2/move/33/
+- id: 34
+  slug: body-slam
+  name: Body Slam
+  url: https://pokeapi.co/api/v2/move/34/
+- id: 35
+  slug: wrap
+  name: Wrap
+  url: https://pokeapi.co/api/v2/move/35/
+- id: 36
+  slug: take-down
+  name: Take Down
+  url: https://pokeapi.co/api/v2/move/36/
+- id: 37
+  slug: thrash
+  name: Thrash
+  url: https://pokeapi.co/api/v2/move/37/
+- id: 38
+  slug: double-edge
+  name: Double Edge
+  url: https://pokeapi.co/api/v2/move/38/
+- id: 39
+  slug: tail-whip
+  name: Tail Whip
+  url: https://pokeapi.co/api/v2/move/39/
+- id: 40
+  slug: poison-sting
+  name: Poison Sting
+  url: https://pokeapi.co/api/v2/move/40/
+- id: 41
+  slug: twineedle
+  name: Twineedle
+  url: https://pokeapi.co/api/v2/move/41/
+- id: 42
+  slug: pin-missile
+  name: Pin Missile
+  url: https://pokeapi.co/api/v2/move/42/
+- id: 43
+  slug: leer
+  name: Leer
+  url: https://pokeapi.co/api/v2/move/43/
+- id: 44
+  slug: bite
+  name: Bite
+  url: https://pokeapi.co/api/v2/move/44/
+- id: 45
+  slug: growl
+  name: Growl
+  url: https://pokeapi.co/api/v2/move/45/
+- id: 46
+  slug: roar
+  name: Roar
+  url: https://pokeapi.co/api/v2/move/46/
+- id: 47
+  slug: sing
+  name: Sing
+  url: https://pokeapi.co/api/v2/move/47/
+- id: 48
+  slug: supersonic
+  name: Supersonic
+  url: https://pokeapi.co/api/v2/move/48/
+- id: 49
+  slug: sonic-boom
+  name: Sonic Boom
+  url: https://pokeapi.co/api/v2/move/49/
+- id: 50
+  slug: disable
+  name: Disable
+  url: https://pokeapi.co/api/v2/move/50/
+- id: 51
+  slug: acid
+  name: Acid
+  url: https://pokeapi.co/api/v2/move/51/
+- id: 52
+  slug: ember
+  name: Ember
+  url: https://pokeapi.co/api/v2/move/52/
+- id: 53
+  slug: flamethrower
+  name: Flamethrower
+  url: https://pokeapi.co/api/v2/move/53/
+- id: 54
+  slug: mist
+  name: Mist
+  url: https://pokeapi.co/api/v2/move/54/
+- id: 55
+  slug: water-gun
+  name: Water Gun
+  url: https://pokeapi.co/api/v2/move/55/
+- id: 56
+  slug: hydro-pump
+  name: Hydro Pump
+  url: https://pokeapi.co/api/v2/move/56/
+- id: 57
+  slug: surf
+  name: Surf
+  url: https://pokeapi.co/api/v2/move/57/
+- id: 58
+  slug: ice-beam
+  name: Ice Beam
+  url: https://pokeapi.co/api/v2/move/58/
+- id: 59
+  slug: blizzard
+  name: Blizzard
+  url: https://pokeapi.co/api/v2/move/59/
+- id: 60
+  slug: psybeam
+  name: Psybeam
+  url: https://pokeapi.co/api/v2/move/60/
+- id: 61
+  slug: bubble-beam
+  name: Bubble Beam
+  url: https://pokeapi.co/api/v2/move/61/
+- id: 62
+  slug: aurora-beam
+  name: Aurora Beam
+  url: https://pokeapi.co/api/v2/move/62/
+- id: 63
+  slug: hyper-beam
+  name: Hyper Beam
+  url: https://pokeapi.co/api/v2/move/63/
+- id: 64
+  slug: peck
+  name: Peck
+  url: https://pokeapi.co/api/v2/move/64/
+- id: 65
+  slug: drill-peck
+  name: Drill Peck
+  url: https://pokeapi.co/api/v2/move/65/
+- id: 66
+  slug: submission
+  name: Submission
+  url: https://pokeapi.co/api/v2/move/66/
+- id: 67
+  slug: low-kick
+  name: Low Kick
+  url: https://pokeapi.co/api/v2/move/67/
+- id: 68
+  slug: counter
+  name: Counter
+  url: https://pokeapi.co/api/v2/move/68/
+- id: 69
+  slug: seismic-toss
+  name: Seismic Toss
+  url: https://pokeapi.co/api/v2/move/69/
+- id: 70
+  slug: strength
+  name: Strength
+  url: https://pokeapi.co/api/v2/move/70/
+- id: 71
+  slug: absorb
+  name: Absorb
+  url: https://pokeapi.co/api/v2/move/71/
+- id: 72
+  slug: mega-drain
+  name: Mega Drain
+  url: https://pokeapi.co/api/v2/move/72/
+- id: 73
+  slug: leech-seed
+  name: Leech Seed
+  url: https://pokeapi.co/api/v2/move/73/
+- id: 74
+  slug: growth
+  name: Growth
+  url: https://pokeapi.co/api/v2/move/74/
+- id: 75
+  slug: razor-leaf
+  name: Razor Leaf
+  url: https://pokeapi.co/api/v2/move/75/
+- id: 76
+  slug: solar-beam
+  name: Solar Beam
+  url: https://pokeapi.co/api/v2/move/76/
+- id: 77
+  slug: poison-powder
+  name: Poison Powder
+  url: https://pokeapi.co/api/v2/move/77/
+- id: 78
+  slug: stun-spore
+  name: Stun Spore
+  url: https://pokeapi.co/api/v2/move/78/
+- id: 79
+  slug: sleep-powder
+  name: Sleep Powder
+  url: https://pokeapi.co/api/v2/move/79/
+- id: 80
+  slug: petal-dance
+  name: Petal Dance
+  url: https://pokeapi.co/api/v2/move/80/
+- id: 81
+  slug: string-shot
+  name: String Shot
+  url: https://pokeapi.co/api/v2/move/81/
+- id: 82
+  slug: dragon-rage
+  name: Dragon Rage
+  url: https://pokeapi.co/api/v2/move/82/
+- id: 83
+  slug: fire-spin
+  name: Fire Spin
+  url: https://pokeapi.co/api/v2/move/83/
+- id: 84
+  slug: thunder-shock
+  name: Thunder Shock
+  url: https://pokeapi.co/api/v2/move/84/
+- id: 85
+  slug: thunderbolt
+  name: Thunderbolt
+  url: https://pokeapi.co/api/v2/move/85/
+- id: 86
+  slug: thunder-wave
+  name: Thunder Wave
+  url: https://pokeapi.co/api/v2/move/86/
+- id: 87
+  slug: thunder
+  name: Thunder
+  url: https://pokeapi.co/api/v2/move/87/
+- id: 88
+  slug: rock-throw
+  name: Rock Throw
+  url: https://pokeapi.co/api/v2/move/88/
+- id: 89
+  slug: earthquake
+  name: Earthquake
+  url: https://pokeapi.co/api/v2/move/89/
+- id: 90
+  slug: fissure
+  name: Fissure
+  url: https://pokeapi.co/api/v2/move/90/
+- id: 91
+  slug: dig
+  name: Dig
+  url: https://pokeapi.co/api/v2/move/91/
+- id: 92
+  slug: toxic
+  name: Toxic
+  url: https://pokeapi.co/api/v2/move/92/
+- id: 93
+  slug: confusion
+  name: Confusion
+  url: https://pokeapi.co/api/v2/move/93/
+- id: 94
+  slug: psychic
+  name: Psychic
+  url: https://pokeapi.co/api/v2/move/94/
+- id: 95
+  slug: hypnosis
+  name: Hypnosis
+  url: https://pokeapi.co/api/v2/move/95/
+- id: 96
+  slug: meditate
+  name: Meditate
+  url: https://pokeapi.co/api/v2/move/96/
+- id: 97
+  slug: agility
+  name: Agility
+  url: https://pokeapi.co/api/v2/move/97/
+- id: 98
+  slug: quick-attack
+  name: Quick Attack
+  url: https://pokeapi.co/api/v2/move/98/
+- id: 99
+  slug: rage
+  name: Rage
+  url: https://pokeapi.co/api/v2/move/99/
+- id: 100
+  slug: teleport
+  name: Teleport
+  url: https://pokeapi.co/api/v2/move/100/
+- id: 101
+  slug: night-shade
+  name: Night Shade
+  url: https://pokeapi.co/api/v2/move/101/
+- id: 102
+  slug: mimic
+  name: Mimic
+  url: https://pokeapi.co/api/v2/move/102/
+- id: 103
+  slug: screech
+  name: Screech
+  url: https://pokeapi.co/api/v2/move/103/
+- id: 104
+  slug: double-team
+  name: Double Team
+  url: https://pokeapi.co/api/v2/move/104/
+- id: 105
+  slug: recover
+  name: Recover
+  url: https://pokeapi.co/api/v2/move/105/
+- id: 106
+  slug: harden
+  name: Harden
+  url: https://pokeapi.co/api/v2/move/106/
+- id: 107
+  slug: minimize
+  name: Minimize
+  url: https://pokeapi.co/api/v2/move/107/
+- id: 108
+  slug: smokescreen
+  name: Smokescreen
+  url: https://pokeapi.co/api/v2/move/108/
+- id: 109
+  slug: confuse-ray
+  name: Confuse Ray
+  url: https://pokeapi.co/api/v2/move/109/
+- id: 110
+  slug: withdraw
+  name: Withdraw
+  url: https://pokeapi.co/api/v2/move/110/
+- id: 111
+  slug: defense-curl
+  name: Defense Curl
+  url: https://pokeapi.co/api/v2/move/111/
+- id: 112
+  slug: barrier
+  name: Barrier
+  url: https://pokeapi.co/api/v2/move/112/
+- id: 113
+  slug: light-screen
+  name: Light Screen
+  url: https://pokeapi.co/api/v2/move/113/
+- id: 114
+  slug: haze
+  name: Haze
+  url: https://pokeapi.co/api/v2/move/114/
+- id: 115
+  slug: reflect
+  name: Reflect
+  url: https://pokeapi.co/api/v2/move/115/
+- id: 116
+  slug: focus-energy
+  name: Focus Energy
+  url: https://pokeapi.co/api/v2/move/116/
+- id: 117
+  slug: bide
+  name: Bide
+  url: https://pokeapi.co/api/v2/move/117/
+- id: 118
+  slug: metronome
+  name: Metronome
+  url: https://pokeapi.co/api/v2/move/118/
+- id: 119
+  slug: mirror-move
+  name: Mirror Move
+  url: https://pokeapi.co/api/v2/move/119/
+- id: 120
+  slug: self-destruct
+  name: Self Destruct
+  url: https://pokeapi.co/api/v2/move/120/
+- id: 121
+  slug: egg-bomb
+  name: Egg Bomb
+  url: https://pokeapi.co/api/v2/move/121/
+- id: 122
+  slug: lick
+  name: Lick
+  url: https://pokeapi.co/api/v2/move/122/
+- id: 123
+  slug: smog
+  name: Smog
+  url: https://pokeapi.co/api/v2/move/123/
+- id: 124
+  slug: sludge
+  name: Sludge
+  url: https://pokeapi.co/api/v2/move/124/
+- id: 125
+  slug: bone-club
+  name: Bone Club
+  url: https://pokeapi.co/api/v2/move/125/
+- id: 126
+  slug: fire-blast
+  name: Fire Blast
+  url: https://pokeapi.co/api/v2/move/126/
+- id: 127
+  slug: waterfall
+  name: Waterfall
+  url: https://pokeapi.co/api/v2/move/127/
+- id: 128
+  slug: clamp
+  name: Clamp
+  url: https://pokeapi.co/api/v2/move/128/
+- id: 129
+  slug: swift
+  name: Swift
+  url: https://pokeapi.co/api/v2/move/129/
+- id: 130
+  slug: skull-bash
+  name: Skull Bash
+  url: https://pokeapi.co/api/v2/move/130/
+- id: 131
+  slug: spike-cannon
+  name: Spike Cannon
+  url: https://pokeapi.co/api/v2/move/131/
+- id: 132
+  slug: constrict
+  name: Constrict
+  url: https://pokeapi.co/api/v2/move/132/
+- id: 133
+  slug: amnesia
+  name: Amnesia
+  url: https://pokeapi.co/api/v2/move/133/
+- id: 134
+  slug: kinesis
+  name: Kinesis
+  url: https://pokeapi.co/api/v2/move/134/
+- id: 135
+  slug: soft-boiled
+  name: Soft Boiled
+  url: https://pokeapi.co/api/v2/move/135/
+- id: 136
+  slug: high-jump-kick
+  name: High Jump Kick
+  url: https://pokeapi.co/api/v2/move/136/
+- id: 137
+  slug: glare
+  name: Glare
+  url: https://pokeapi.co/api/v2/move/137/
+- id: 138
+  slug: dream-eater
+  name: Dream Eater
+  url: https://pokeapi.co/api/v2/move/138/
+- id: 139
+  slug: poison-gas
+  name: Poison Gas
+  url: https://pokeapi.co/api/v2/move/139/
+- id: 140
+  slug: barrage
+  name: Barrage
+  url: https://pokeapi.co/api/v2/move/140/
+- id: 141
+  slug: leech-life
+  name: Leech Life
+  url: https://pokeapi.co/api/v2/move/141/
+- id: 142
+  slug: lovely-kiss
+  name: Lovely Kiss
+  url: https://pokeapi.co/api/v2/move/142/
+- id: 143
+  slug: sky-attack
+  name: Sky Attack
+  url: https://pokeapi.co/api/v2/move/143/
+- id: 144
+  slug: transform
+  name: Transform
+  url: https://pokeapi.co/api/v2/move/144/
+- id: 145
+  slug: bubble
+  name: Bubble
+  url: https://pokeapi.co/api/v2/move/145/
+- id: 146
+  slug: dizzy-punch
+  name: Dizzy Punch
+  url: https://pokeapi.co/api/v2/move/146/
+- id: 147
+  slug: spore
+  name: Spore
+  url: https://pokeapi.co/api/v2/move/147/
+- id: 148
+  slug: flash
+  name: Flash
+  url: https://pokeapi.co/api/v2/move/148/
+- id: 149
+  slug: psywave
+  name: Psywave
+  url: https://pokeapi.co/api/v2/move/149/
+- id: 150
+  slug: splash
+  name: Splash
+  url: https://pokeapi.co/api/v2/move/150/
+- id: 151
+  slug: acid-armor
+  name: Acid Armor
+  url: https://pokeapi.co/api/v2/move/151/
+- id: 152
+  slug: crabhammer
+  name: Crabhammer
+  url: https://pokeapi.co/api/v2/move/152/
+- id: 153
+  slug: explosion
+  name: Explosion
+  url: https://pokeapi.co/api/v2/move/153/
+- id: 154
+  slug: fury-swipes
+  name: Fury Swipes
+  url: https://pokeapi.co/api/v2/move/154/
+- id: 155
+  slug: bonemerang
+  name: Bonemerang
+  url: https://pokeapi.co/api/v2/move/155/
+- id: 156
+  slug: rest
+  name: Rest
+  url: https://pokeapi.co/api/v2/move/156/
+- id: 157
+  slug: rock-slide
+  name: Rock Slide
+  url: https://pokeapi.co/api/v2/move/157/
+- id: 158
+  slug: hyper-fang
+  name: Hyper Fang
+  url: https://pokeapi.co/api/v2/move/158/
+- id: 159
+  slug: sharpen
+  name: Sharpen
+  url: https://pokeapi.co/api/v2/move/159/
+- id: 160
+  slug: conversion
+  name: Conversion
+  url: https://pokeapi.co/api/v2/move/160/
+- id: 161
+  slug: tri-attack
+  name: Tri Attack
+  url: https://pokeapi.co/api/v2/move/161/
+- id: 162
+  slug: super-fang
+  name: Super Fang
+  url: https://pokeapi.co/api/v2/move/162/
+- id: 163
+  slug: slash
+  name: Slash
+  url: https://pokeapi.co/api/v2/move/163/
+- id: 164
+  slug: substitute
+  name: Substitute
+  url: https://pokeapi.co/api/v2/move/164/
+- id: 165
+  slug: struggle
+  name: Struggle
+  url: https://pokeapi.co/api/v2/move/165/
+- id: 166
+  slug: sketch
+  name: Sketch
+  url: https://pokeapi.co/api/v2/move/166/
+- id: 167
+  slug: triple-kick
+  name: Triple Kick
+  url: https://pokeapi.co/api/v2/move/167/
+- id: 168
+  slug: thief
+  name: Thief
+  url: https://pokeapi.co/api/v2/move/168/
+- id: 169
+  slug: spider-web
+  name: Spider Web
+  url: https://pokeapi.co/api/v2/move/169/
+- id: 170
+  slug: mind-reader
+  name: Mind Reader
+  url: https://pokeapi.co/api/v2/move/170/
+- id: 171
+  slug: nightmare
+  name: Nightmare
+  url: https://pokeapi.co/api/v2/move/171/
+- id: 172
+  slug: flame-wheel
+  name: Flame Wheel
+  url: https://pokeapi.co/api/v2/move/172/
+- id: 173
+  slug: snore
+  name: Snore
+  url: https://pokeapi.co/api/v2/move/173/
+- id: 174
+  slug: curse
+  name: Curse
+  url: https://pokeapi.co/api/v2/move/174/
+- id: 175
+  slug: flail
+  name: Flail
+  url: https://pokeapi.co/api/v2/move/175/
+- id: 176
+  slug: conversion-2
+  name: Conversion 2
+  url: https://pokeapi.co/api/v2/move/176/
+- id: 177
+  slug: aeroblast
+  name: Aeroblast
+  url: https://pokeapi.co/api/v2/move/177/
+- id: 178
+  slug: cotton-spore
+  name: Cotton Spore
+  url: https://pokeapi.co/api/v2/move/178/
+- id: 179
+  slug: reversal
+  name: Reversal
+  url: https://pokeapi.co/api/v2/move/179/
+- id: 180
+  slug: spite
+  name: Spite
+  url: https://pokeapi.co/api/v2/move/180/
+- id: 181
+  slug: powder-snow
+  name: Powder Snow
+  url: https://pokeapi.co/api/v2/move/181/
+- id: 182
+  slug: protect
+  name: Protect
+  url: https://pokeapi.co/api/v2/move/182/
+- id: 183
+  slug: mach-punch
+  name: Mach Punch
+  url: https://pokeapi.co/api/v2/move/183/
+- id: 184
+  slug: scary-face
+  name: Scary Face
+  url: https://pokeapi.co/api/v2/move/184/
+- id: 185
+  slug: feint-attack
+  name: Feint Attack
+  url: https://pokeapi.co/api/v2/move/185/
+- id: 186
+  slug: sweet-kiss
+  name: Sweet Kiss
+  url: https://pokeapi.co/api/v2/move/186/
+- id: 187
+  slug: belly-drum
+  name: Belly Drum
+  url: https://pokeapi.co/api/v2/move/187/
+- id: 188
+  slug: sludge-bomb
+  name: Sludge Bomb
+  url: https://pokeapi.co/api/v2/move/188/
+- id: 189
+  slug: mud-slap
+  name: Mud Slap
+  url: https://pokeapi.co/api/v2/move/189/
+- id: 190
+  slug: octazooka
+  name: Octazooka
+  url: https://pokeapi.co/api/v2/move/190/
+- id: 191
+  slug: spikes
+  name: Spikes
+  url: https://pokeapi.co/api/v2/move/191/
+- id: 192
+  slug: zap-cannon
+  name: Zap Cannon
+  url: https://pokeapi.co/api/v2/move/192/
+- id: 193
+  slug: foresight
+  name: Foresight
+  url: https://pokeapi.co/api/v2/move/193/
+- id: 194
+  slug: destiny-bond
+  name: Destiny Bond
+  url: https://pokeapi.co/api/v2/move/194/
+- id: 195
+  slug: perish-song
+  name: Perish Song
+  url: https://pokeapi.co/api/v2/move/195/
+- id: 196
+  slug: icy-wind
+  name: Icy Wind
+  url: https://pokeapi.co/api/v2/move/196/
+- id: 197
+  slug: detect
+  name: Detect
+  url: https://pokeapi.co/api/v2/move/197/
+- id: 198
+  slug: bone-rush
+  name: Bone Rush
+  url: https://pokeapi.co/api/v2/move/198/
+- id: 199
+  slug: lock-on
+  name: Lock On
+  url: https://pokeapi.co/api/v2/move/199/
+- id: 200
+  slug: outrage
+  name: Outrage
+  url: https://pokeapi.co/api/v2/move/200/
+- id: 201
+  slug: sandstorm
+  name: Sandstorm
+  url: https://pokeapi.co/api/v2/move/201/
+- id: 202
+  slug: giga-drain
+  name: Giga Drain
+  url: https://pokeapi.co/api/v2/move/202/
+- id: 203
+  slug: endure
+  name: Endure
+  url: https://pokeapi.co/api/v2/move/203/
+- id: 204
+  slug: charm
+  name: Charm
+  url: https://pokeapi.co/api/v2/move/204/
+- id: 205
+  slug: rollout
+  name: Rollout
+  url: https://pokeapi.co/api/v2/move/205/
+- id: 206
+  slug: false-swipe
+  name: False Swipe
+  url: https://pokeapi.co/api/v2/move/206/
+- id: 207
+  slug: swagger
+  name: Swagger
+  url: https://pokeapi.co/api/v2/move/207/
+- id: 208
+  slug: milk-drink
+  name: Milk Drink
+  url: https://pokeapi.co/api/v2/move/208/
+- id: 209
+  slug: spark
+  name: Spark
+  url: https://pokeapi.co/api/v2/move/209/
+- id: 210
+  slug: fury-cutter
+  name: Fury Cutter
+  url: https://pokeapi.co/api/v2/move/210/
+- id: 211
+  slug: steel-wing
+  name: Steel Wing
+  url: https://pokeapi.co/api/v2/move/211/
+- id: 212
+  slug: mean-look
+  name: Mean Look
+  url: https://pokeapi.co/api/v2/move/212/
+- id: 213
+  slug: attract
+  name: Attract
+  url: https://pokeapi.co/api/v2/move/213/
+- id: 214
+  slug: sleep-talk
+  name: Sleep Talk
+  url: https://pokeapi.co/api/v2/move/214/
+- id: 215
+  slug: heal-bell
+  name: Heal Bell
+  url: https://pokeapi.co/api/v2/move/215/
+- id: 216
+  slug: return
+  name: Return
+  url: https://pokeapi.co/api/v2/move/216/
+- id: 217
+  slug: present
+  name: Present
+  url: https://pokeapi.co/api/v2/move/217/
+- id: 218
+  slug: frustration
+  name: Frustration
+  url: https://pokeapi.co/api/v2/move/218/
+- id: 219
+  slug: safeguard
+  name: Safeguard
+  url: https://pokeapi.co/api/v2/move/219/
+- id: 220
+  slug: pain-split
+  name: Pain Split
+  url: https://pokeapi.co/api/v2/move/220/
+- id: 221
+  slug: sacred-fire
+  name: Sacred Fire
+  url: https://pokeapi.co/api/v2/move/221/
+- id: 222
+  slug: magnitude
+  name: Magnitude
+  url: https://pokeapi.co/api/v2/move/222/
+- id: 223
+  slug: dynamic-punch
+  name: Dynamic Punch
+  url: https://pokeapi.co/api/v2/move/223/
+- id: 224
+  slug: megahorn
+  name: Megahorn
+  url: https://pokeapi.co/api/v2/move/224/
+- id: 225
+  slug: dragon-breath
+  name: Dragon Breath
+  url: https://pokeapi.co/api/v2/move/225/
+- id: 226
+  slug: baton-pass
+  name: Baton Pass
+  url: https://pokeapi.co/api/v2/move/226/
+- id: 227
+  slug: encore
+  name: Encore
+  url: https://pokeapi.co/api/v2/move/227/
+- id: 228
+  slug: pursuit
+  name: Pursuit
+  url: https://pokeapi.co/api/v2/move/228/
+- id: 229
+  slug: rapid-spin
+  name: Rapid Spin
+  url: https://pokeapi.co/api/v2/move/229/
+- id: 230
+  slug: sweet-scent
+  name: Sweet Scent
+  url: https://pokeapi.co/api/v2/move/230/
+- id: 231
+  slug: iron-tail
+  name: Iron Tail
+  url: https://pokeapi.co/api/v2/move/231/
+- id: 232
+  slug: metal-claw
+  name: Metal Claw
+  url: https://pokeapi.co/api/v2/move/232/
+- id: 233
+  slug: vital-throw
+  name: Vital Throw
+  url: https://pokeapi.co/api/v2/move/233/
+- id: 234
+  slug: morning-sun
+  name: Morning Sun
+  url: https://pokeapi.co/api/v2/move/234/
+- id: 235
+  slug: synthesis
+  name: Synthesis
+  url: https://pokeapi.co/api/v2/move/235/
+- id: 236
+  slug: moonlight
+  name: Moonlight
+  url: https://pokeapi.co/api/v2/move/236/
+- id: 237
+  slug: hidden-power
+  name: Hidden Power
+  url: https://pokeapi.co/api/v2/move/237/
+- id: 238
+  slug: cross-chop
+  name: Cross Chop
+  url: https://pokeapi.co/api/v2/move/238/
+- id: 239
+  slug: twister
+  name: Twister
+  url: https://pokeapi.co/api/v2/move/239/
+- id: 240
+  slug: rain-dance
+  name: Rain Dance
+  url: https://pokeapi.co/api/v2/move/240/
+- id: 241
+  slug: sunny-day
+  name: Sunny Day
+  url: https://pokeapi.co/api/v2/move/241/
+- id: 242
+  slug: crunch
+  name: Crunch
+  url: https://pokeapi.co/api/v2/move/242/
+- id: 243
+  slug: mirror-coat
+  name: Mirror Coat
+  url: https://pokeapi.co/api/v2/move/243/
+- id: 244
+  slug: psych-up
+  name: Psych Up
+  url: https://pokeapi.co/api/v2/move/244/
+- id: 245
+  slug: extreme-speed
+  name: Extreme Speed
+  url: https://pokeapi.co/api/v2/move/245/
+- id: 246
+  slug: ancient-power
+  name: Ancient Power
+  url: https://pokeapi.co/api/v2/move/246/
+- id: 247
+  slug: shadow-ball
+  name: Shadow Ball
+  url: https://pokeapi.co/api/v2/move/247/
+- id: 248
+  slug: future-sight
+  name: Future Sight
+  url: https://pokeapi.co/api/v2/move/248/
+- id: 249
+  slug: rock-smash
+  name: Rock Smash
+  url: https://pokeapi.co/api/v2/move/249/
+- id: 250
+  slug: whirlpool
+  name: Whirlpool
+  url: https://pokeapi.co/api/v2/move/250/
+- id: 251
+  slug: beat-up
+  name: Beat Up
+  url: https://pokeapi.co/api/v2/move/251/
+- id: 252
+  slug: fake-out
+  name: Fake Out
+  url: https://pokeapi.co/api/v2/move/252/
+- id: 253
+  slug: uproar
+  name: Uproar
+  url: https://pokeapi.co/api/v2/move/253/
+- id: 254
+  slug: stockpile
+  name: Stockpile
+  url: https://pokeapi.co/api/v2/move/254/
+- id: 255
+  slug: spit-up
+  name: Spit Up
+  url: https://pokeapi.co/api/v2/move/255/
+- id: 256
+  slug: swallow
+  name: Swallow
+  url: https://pokeapi.co/api/v2/move/256/
+- id: 257
+  slug: heat-wave
+  name: Heat Wave
+  url: https://pokeapi.co/api/v2/move/257/
+- id: 258
+  slug: hail
+  name: Hail
+  url: https://pokeapi.co/api/v2/move/258/
+- id: 259
+  slug: torment
+  name: Torment
+  url: https://pokeapi.co/api/v2/move/259/
+- id: 260
+  slug: flatter
+  name: Flatter
+  url: https://pokeapi.co/api/v2/move/260/
+- id: 261
+  slug: will-o-wisp
+  name: Will O Wisp
+  url: https://pokeapi.co/api/v2/move/261/
+- id: 262
+  slug: memento
+  name: Memento
+  url: https://pokeapi.co/api/v2/move/262/
+- id: 263
+  slug: facade
+  name: Facade
+  url: https://pokeapi.co/api/v2/move/263/
+- id: 264
+  slug: focus-punch
+  name: Focus Punch
+  url: https://pokeapi.co/api/v2/move/264/
+- id: 265
+  slug: smelling-salts
+  name: Smelling Salts
+  url: https://pokeapi.co/api/v2/move/265/
+- id: 266
+  slug: follow-me
+  name: Follow Me
+  url: https://pokeapi.co/api/v2/move/266/
+- id: 267
+  slug: nature-power
+  name: Nature Power
+  url: https://pokeapi.co/api/v2/move/267/
+- id: 268
+  slug: charge
+  name: Charge
+  url: https://pokeapi.co/api/v2/move/268/
+- id: 269
+  slug: taunt
+  name: Taunt
+  url: https://pokeapi.co/api/v2/move/269/
+- id: 270
+  slug: helping-hand
+  name: Helping Hand
+  url: https://pokeapi.co/api/v2/move/270/
+- id: 271
+  slug: trick
+  name: Trick
+  url: https://pokeapi.co/api/v2/move/271/
+- id: 272
+  slug: role-play
+  name: Role Play
+  url: https://pokeapi.co/api/v2/move/272/
+- id: 273
+  slug: wish
+  name: Wish
+  url: https://pokeapi.co/api/v2/move/273/
+- id: 274
+  slug: assist
+  name: Assist
+  url: https://pokeapi.co/api/v2/move/274/
+- id: 275
+  slug: ingrain
+  name: Ingrain
+  url: https://pokeapi.co/api/v2/move/275/
+- id: 276
+  slug: superpower
+  name: Superpower
+  url: https://pokeapi.co/api/v2/move/276/
+- id: 277
+  slug: magic-coat
+  name: Magic Coat
+  url: https://pokeapi.co/api/v2/move/277/
+- id: 278
+  slug: recycle
+  name: Recycle
+  url: https://pokeapi.co/api/v2/move/278/
+- id: 279
+  slug: revenge
+  name: Revenge
+  url: https://pokeapi.co/api/v2/move/279/
+- id: 280
+  slug: brick-break
+  name: Brick Break
+  url: https://pokeapi.co/api/v2/move/280/
+- id: 281
+  slug: yawn
+  name: Yawn
+  url: https://pokeapi.co/api/v2/move/281/
+- id: 282
+  slug: knock-off
+  name: Knock Off
+  url: https://pokeapi.co/api/v2/move/282/
+- id: 283
+  slug: endeavor
+  name: Endeavor
+  url: https://pokeapi.co/api/v2/move/283/
+- id: 284
+  slug: eruption
+  name: Eruption
+  url: https://pokeapi.co/api/v2/move/284/
+- id: 285
+  slug: skill-swap
+  name: Skill Swap
+  url: https://pokeapi.co/api/v2/move/285/
+- id: 286
+  slug: imprison
+  name: Imprison
+  url: https://pokeapi.co/api/v2/move/286/
+- id: 287
+  slug: refresh
+  name: Refresh
+  url: https://pokeapi.co/api/v2/move/287/
+- id: 288
+  slug: grudge
+  name: Grudge
+  url: https://pokeapi.co/api/v2/move/288/
+- id: 289
+  slug: snatch
+  name: Snatch
+  url: https://pokeapi.co/api/v2/move/289/
+- id: 290
+  slug: secret-power
+  name: Secret Power
+  url: https://pokeapi.co/api/v2/move/290/
+- id: 291
+  slug: dive
+  name: Dive
+  url: https://pokeapi.co/api/v2/move/291/
+- id: 292
+  slug: arm-thrust
+  name: Arm Thrust
+  url: https://pokeapi.co/api/v2/move/292/
+- id: 293
+  slug: camouflage
+  name: Camouflage
+  url: https://pokeapi.co/api/v2/move/293/
+- id: 294
+  slug: tail-glow
+  name: Tail Glow
+  url: https://pokeapi.co/api/v2/move/294/
+- id: 295
+  slug: luster-purge
+  name: Luster Purge
+  url: https://pokeapi.co/api/v2/move/295/
+- id: 296
+  slug: mist-ball
+  name: Mist Ball
+  url: https://pokeapi.co/api/v2/move/296/
+- id: 297
+  slug: feather-dance
+  name: Feather Dance
+  url: https://pokeapi.co/api/v2/move/297/
+- id: 298
+  slug: teeter-dance
+  name: Teeter Dance
+  url: https://pokeapi.co/api/v2/move/298/
+- id: 299
+  slug: blaze-kick
+  name: Blaze Kick
+  url: https://pokeapi.co/api/v2/move/299/
+- id: 300
+  slug: mud-sport
+  name: Mud Sport
+  url: https://pokeapi.co/api/v2/move/300/
+- id: 301
+  slug: ice-ball
+  name: Ice Ball
+  url: https://pokeapi.co/api/v2/move/301/
+- id: 302
+  slug: needle-arm
+  name: Needle Arm
+  url: https://pokeapi.co/api/v2/move/302/
+- id: 303
+  slug: slack-off
+  name: Slack Off
+  url: https://pokeapi.co/api/v2/move/303/
+- id: 304
+  slug: hyper-voice
+  name: Hyper Voice
+  url: https://pokeapi.co/api/v2/move/304/
+- id: 305
+  slug: poison-fang
+  name: Poison Fang
+  url: https://pokeapi.co/api/v2/move/305/
+- id: 306
+  slug: crush-claw
+  name: Crush Claw
+  url: https://pokeapi.co/api/v2/move/306/
+- id: 307
+  slug: blast-burn
+  name: Blast Burn
+  url: https://pokeapi.co/api/v2/move/307/
+- id: 308
+  slug: hydro-cannon
+  name: Hydro Cannon
+  url: https://pokeapi.co/api/v2/move/308/
+- id: 309
+  slug: meteor-mash
+  name: Meteor Mash
+  url: https://pokeapi.co/api/v2/move/309/
+- id: 310
+  slug: astonish
+  name: Astonish
+  url: https://pokeapi.co/api/v2/move/310/
+- id: 311
+  slug: weather-ball
+  name: Weather Ball
+  url: https://pokeapi.co/api/v2/move/311/
+- id: 312
+  slug: aromatherapy
+  name: Aromatherapy
+  url: https://pokeapi.co/api/v2/move/312/
+- id: 313
+  slug: fake-tears
+  name: Fake Tears
+  url: https://pokeapi.co/api/v2/move/313/
+- id: 314
+  slug: air-cutter
+  name: Air Cutter
+  url: https://pokeapi.co/api/v2/move/314/
+- id: 315
+  slug: overheat
+  name: Overheat
+  url: https://pokeapi.co/api/v2/move/315/
+- id: 316
+  slug: odor-sleuth
+  name: Odor Sleuth
+  url: https://pokeapi.co/api/v2/move/316/
+- id: 317
+  slug: rock-tomb
+  name: Rock Tomb
+  url: https://pokeapi.co/api/v2/move/317/
+- id: 318
+  slug: silver-wind
+  name: Silver Wind
+  url: https://pokeapi.co/api/v2/move/318/
+- id: 319
+  slug: metal-sound
+  name: Metal Sound
+  url: https://pokeapi.co/api/v2/move/319/
+- id: 320
+  slug: grass-whistle
+  name: Grass Whistle
+  url: https://pokeapi.co/api/v2/move/320/
+- id: 321
+  slug: tickle
+  name: Tickle
+  url: https://pokeapi.co/api/v2/move/321/
+- id: 322
+  slug: cosmic-power
+  name: Cosmic Power
+  url: https://pokeapi.co/api/v2/move/322/
+- id: 323
+  slug: water-spout
+  name: Water Spout
+  url: https://pokeapi.co/api/v2/move/323/
+- id: 324
+  slug: signal-beam
+  name: Signal Beam
+  url: https://pokeapi.co/api/v2/move/324/
+- id: 325
+  slug: shadow-punch
+  name: Shadow Punch
+  url: https://pokeapi.co/api/v2/move/325/
+- id: 326
+  slug: extrasensory
+  name: Extrasensory
+  url: https://pokeapi.co/api/v2/move/326/
+- id: 327
+  slug: sky-uppercut
+  name: Sky Uppercut
+  url: https://pokeapi.co/api/v2/move/327/
+- id: 328
+  slug: sand-tomb
+  name: Sand Tomb
+  url: https://pokeapi.co/api/v2/move/328/
+- id: 329
+  slug: sheer-cold
+  name: Sheer Cold
+  url: https://pokeapi.co/api/v2/move/329/
+- id: 330
+  slug: muddy-water
+  name: Muddy Water
+  url: https://pokeapi.co/api/v2/move/330/
+- id: 331
+  slug: bullet-seed
+  name: Bullet Seed
+  url: https://pokeapi.co/api/v2/move/331/
+- id: 332
+  slug: aerial-ace
+  name: Aerial Ace
+  url: https://pokeapi.co/api/v2/move/332/
+- id: 333
+  slug: icicle-spear
+  name: Icicle Spear
+  url: https://pokeapi.co/api/v2/move/333/
+- id: 334
+  slug: iron-defense
+  name: Iron Defense
+  url: https://pokeapi.co/api/v2/move/334/
+- id: 335
+  slug: block
+  name: Block
+  url: https://pokeapi.co/api/v2/move/335/
+- id: 336
+  slug: howl
+  name: Howl
+  url: https://pokeapi.co/api/v2/move/336/
+- id: 337
+  slug: dragon-claw
+  name: Dragon Claw
+  url: https://pokeapi.co/api/v2/move/337/
+- id: 338
+  slug: frenzy-plant
+  name: Frenzy Plant
+  url: https://pokeapi.co/api/v2/move/338/
+- id: 339
+  slug: bulk-up
+  name: Bulk Up
+  url: https://pokeapi.co/api/v2/move/339/
+- id: 340
+  slug: bounce
+  name: Bounce
+  url: https://pokeapi.co/api/v2/move/340/
+- id: 341
+  slug: mud-shot
+  name: Mud Shot
+  url: https://pokeapi.co/api/v2/move/341/
+- id: 342
+  slug: poison-tail
+  name: Poison Tail
+  url: https://pokeapi.co/api/v2/move/342/
+- id: 343
+  slug: covet
+  name: Covet
+  url: https://pokeapi.co/api/v2/move/343/
+- id: 344
+  slug: volt-tackle
+  name: Volt Tackle
+  url: https://pokeapi.co/api/v2/move/344/
+- id: 345
+  slug: magical-leaf
+  name: Magical Leaf
+  url: https://pokeapi.co/api/v2/move/345/
+- id: 346
+  slug: water-sport
+  name: Water Sport
+  url: https://pokeapi.co/api/v2/move/346/
+- id: 347
+  slug: calm-mind
+  name: Calm Mind
+  url: https://pokeapi.co/api/v2/move/347/
+- id: 348
+  slug: leaf-blade
+  name: Leaf Blade
+  url: https://pokeapi.co/api/v2/move/348/
+- id: 349
+  slug: dragon-dance
+  name: Dragon Dance
+  url: https://pokeapi.co/api/v2/move/349/
+- id: 350
+  slug: rock-blast
+  name: Rock Blast
+  url: https://pokeapi.co/api/v2/move/350/
+- id: 351
+  slug: shock-wave
+  name: Shock Wave
+  url: https://pokeapi.co/api/v2/move/351/
+- id: 352
+  slug: water-pulse
+  name: Water Pulse
+  url: https://pokeapi.co/api/v2/move/352/
+- id: 353
+  slug: doom-desire
+  name: Doom Desire
+  url: https://pokeapi.co/api/v2/move/353/
+- id: 354
+  slug: psycho-boost
+  name: Psycho Boost
+  url: https://pokeapi.co/api/v2/move/354/
+- id: 355
+  slug: roost
+  name: Roost
+  url: https://pokeapi.co/api/v2/move/355/
+- id: 356
+  slug: gravity
+  name: Gravity
+  url: https://pokeapi.co/api/v2/move/356/
+- id: 357
+  slug: miracle-eye
+  name: Miracle Eye
+  url: https://pokeapi.co/api/v2/move/357/
+- id: 358
+  slug: wake-up-slap
+  name: Wake Up Slap
+  url: https://pokeapi.co/api/v2/move/358/
+- id: 359
+  slug: hammer-arm
+  name: Hammer Arm
+  url: https://pokeapi.co/api/v2/move/359/
+- id: 360
+  slug: gyro-ball
+  name: Gyro Ball
+  url: https://pokeapi.co/api/v2/move/360/
+- id: 361
+  slug: healing-wish
+  name: Healing Wish
+  url: https://pokeapi.co/api/v2/move/361/
+- id: 362
+  slug: brine
+  name: Brine
+  url: https://pokeapi.co/api/v2/move/362/
+- id: 363
+  slug: natural-gift
+  name: Natural Gift
+  url: https://pokeapi.co/api/v2/move/363/
+- id: 364
+  slug: feint
+  name: Feint
+  url: https://pokeapi.co/api/v2/move/364/
+- id: 365
+  slug: pluck
+  name: Pluck
+  url: https://pokeapi.co/api/v2/move/365/
+- id: 366
+  slug: tailwind
+  name: Tailwind
+  url: https://pokeapi.co/api/v2/move/366/
+- id: 367
+  slug: acupressure
+  name: Acupressure
+  url: https://pokeapi.co/api/v2/move/367/
+- id: 368
+  slug: metal-burst
+  name: Metal Burst
+  url: https://pokeapi.co/api/v2/move/368/
+- id: 369
+  slug: u-turn
+  name: U Turn
+  url: https://pokeapi.co/api/v2/move/369/
+- id: 370
+  slug: close-combat
+  name: Close Combat
+  url: https://pokeapi.co/api/v2/move/370/
+- id: 371
+  slug: payback
+  name: Payback
+  url: https://pokeapi.co/api/v2/move/371/
+- id: 372
+  slug: assurance
+  name: Assurance
+  url: https://pokeapi.co/api/v2/move/372/
+- id: 373
+  slug: embargo
+  name: Embargo
+  url: https://pokeapi.co/api/v2/move/373/
+- id: 374
+  slug: fling
+  name: Fling
+  url: https://pokeapi.co/api/v2/move/374/
+- id: 375
+  slug: psycho-shift
+  name: Psycho Shift
+  url: https://pokeapi.co/api/v2/move/375/
+- id: 376
+  slug: trump-card
+  name: Trump Card
+  url: https://pokeapi.co/api/v2/move/376/
+- id: 377
+  slug: heal-block
+  name: Heal Block
+  url: https://pokeapi.co/api/v2/move/377/
+- id: 378
+  slug: wring-out
+  name: Wring Out
+  url: https://pokeapi.co/api/v2/move/378/
+- id: 379
+  slug: power-trick
+  name: Power Trick
+  url: https://pokeapi.co/api/v2/move/379/
+- id: 380
+  slug: gastro-acid
+  name: Gastro Acid
+  url: https://pokeapi.co/api/v2/move/380/
+- id: 381
+  slug: lucky-chant
+  name: Lucky Chant
+  url: https://pokeapi.co/api/v2/move/381/
+- id: 382
+  slug: me-first
+  name: Me First
+  url: https://pokeapi.co/api/v2/move/382/
+- id: 383
+  slug: copycat
+  name: Copycat
+  url: https://pokeapi.co/api/v2/move/383/
+- id: 384
+  slug: power-swap
+  name: Power Swap
+  url: https://pokeapi.co/api/v2/move/384/
+- id: 385
+  slug: guard-swap
+  name: Guard Swap
+  url: https://pokeapi.co/api/v2/move/385/
+- id: 386
+  slug: punishment
+  name: Punishment
+  url: https://pokeapi.co/api/v2/move/386/
+- id: 387
+  slug: last-resort
+  name: Last Resort
+  url: https://pokeapi.co/api/v2/move/387/
+- id: 388
+  slug: worry-seed
+  name: Worry Seed
+  url: https://pokeapi.co/api/v2/move/388/
+- id: 389
+  slug: sucker-punch
+  name: Sucker Punch
+  url: https://pokeapi.co/api/v2/move/389/
+- id: 390
+  slug: toxic-spikes
+  name: Toxic Spikes
+  url: https://pokeapi.co/api/v2/move/390/
+- id: 391
+  slug: heart-swap
+  name: Heart Swap
+  url: https://pokeapi.co/api/v2/move/391/
+- id: 392
+  slug: aqua-ring
+  name: Aqua Ring
+  url: https://pokeapi.co/api/v2/move/392/
+- id: 393
+  slug: magnet-rise
+  name: Magnet Rise
+  url: https://pokeapi.co/api/v2/move/393/
+- id: 394
+  slug: flare-blitz
+  name: Flare Blitz
+  url: https://pokeapi.co/api/v2/move/394/
+- id: 395
+  slug: force-palm
+  name: Force Palm
+  url: https://pokeapi.co/api/v2/move/395/
+- id: 396
+  slug: aura-sphere
+  name: Aura Sphere
+  url: https://pokeapi.co/api/v2/move/396/
+- id: 397
+  slug: rock-polish
+  name: Rock Polish
+  url: https://pokeapi.co/api/v2/move/397/
+- id: 398
+  slug: poison-jab
+  name: Poison Jab
+  url: https://pokeapi.co/api/v2/move/398/
+- id: 399
+  slug: dark-pulse
+  name: Dark Pulse
+  url: https://pokeapi.co/api/v2/move/399/
+- id: 400
+  slug: night-slash
+  name: Night Slash
+  url: https://pokeapi.co/api/v2/move/400/
+- id: 401
+  slug: aqua-tail
+  name: Aqua Tail
+  url: https://pokeapi.co/api/v2/move/401/
+- id: 402
+  slug: seed-bomb
+  name: Seed Bomb
+  url: https://pokeapi.co/api/v2/move/402/
+- id: 403
+  slug: air-slash
+  name: Air Slash
+  url: https://pokeapi.co/api/v2/move/403/
+- id: 404
+  slug: x-scissor
+  name: X Scissor
+  url: https://pokeapi.co/api/v2/move/404/
+- id: 405
+  slug: bug-buzz
+  name: Bug Buzz
+  url: https://pokeapi.co/api/v2/move/405/
+- id: 406
+  slug: dragon-pulse
+  name: Dragon Pulse
+  url: https://pokeapi.co/api/v2/move/406/
+- id: 407
+  slug: dragon-rush
+  name: Dragon Rush
+  url: https://pokeapi.co/api/v2/move/407/
+- id: 408
+  slug: power-gem
+  name: Power Gem
+  url: https://pokeapi.co/api/v2/move/408/
+- id: 409
+  slug: drain-punch
+  name: Drain Punch
+  url: https://pokeapi.co/api/v2/move/409/
+- id: 410
+  slug: vacuum-wave
+  name: Vacuum Wave
+  url: https://pokeapi.co/api/v2/move/410/
+- id: 411
+  slug: focus-blast
+  name: Focus Blast
+  url: https://pokeapi.co/api/v2/move/411/
+- id: 412
+  slug: energy-ball
+  name: Energy Ball
+  url: https://pokeapi.co/api/v2/move/412/
+- id: 413
+  slug: brave-bird
+  name: Brave Bird
+  url: https://pokeapi.co/api/v2/move/413/
+- id: 414
+  slug: earth-power
+  name: Earth Power
+  url: https://pokeapi.co/api/v2/move/414/
+- id: 415
+  slug: switcheroo
+  name: Switcheroo
+  url: https://pokeapi.co/api/v2/move/415/
+- id: 416
+  slug: giga-impact
+  name: Giga Impact
+  url: https://pokeapi.co/api/v2/move/416/
+- id: 417
+  slug: nasty-plot
+  name: Nasty Plot
+  url: https://pokeapi.co/api/v2/move/417/
+- id: 418
+  slug: bullet-punch
+  name: Bullet Punch
+  url: https://pokeapi.co/api/v2/move/418/
+- id: 419
+  slug: avalanche
+  name: Avalanche
+  url: https://pokeapi.co/api/v2/move/419/
+- id: 420
+  slug: ice-shard
+  name: Ice Shard
+  url: https://pokeapi.co/api/v2/move/420/
+- id: 421
+  slug: shadow-claw
+  name: Shadow Claw
+  url: https://pokeapi.co/api/v2/move/421/
+- id: 422
+  slug: thunder-fang
+  name: Thunder Fang
+  url: https://pokeapi.co/api/v2/move/422/
+- id: 423
+  slug: ice-fang
+  name: Ice Fang
+  url: https://pokeapi.co/api/v2/move/423/
+- id: 424
+  slug: fire-fang
+  name: Fire Fang
+  url: https://pokeapi.co/api/v2/move/424/
+- id: 425
+  slug: shadow-sneak
+  name: Shadow Sneak
+  url: https://pokeapi.co/api/v2/move/425/
+- id: 426
+  slug: mud-bomb
+  name: Mud Bomb
+  url: https://pokeapi.co/api/v2/move/426/
+- id: 427
+  slug: psycho-cut
+  name: Psycho Cut
+  url: https://pokeapi.co/api/v2/move/427/
+- id: 428
+  slug: zen-headbutt
+  name: Zen Headbutt
+  url: https://pokeapi.co/api/v2/move/428/
+- id: 429
+  slug: mirror-shot
+  name: Mirror Shot
+  url: https://pokeapi.co/api/v2/move/429/
+- id: 430
+  slug: flash-cannon
+  name: Flash Cannon
+  url: https://pokeapi.co/api/v2/move/430/
+- id: 431
+  slug: rock-climb
+  name: Rock Climb
+  url: https://pokeapi.co/api/v2/move/431/
+- id: 432
+  slug: defog
+  name: Defog
+  url: https://pokeapi.co/api/v2/move/432/
+- id: 433
+  slug: trick-room
+  name: Trick Room
+  url: https://pokeapi.co/api/v2/move/433/
+- id: 434
+  slug: draco-meteor
+  name: Draco Meteor
+  url: https://pokeapi.co/api/v2/move/434/
+- id: 435
+  slug: discharge
+  name: Discharge
+  url: https://pokeapi.co/api/v2/move/435/
+- id: 436
+  slug: lava-plume
+  name: Lava Plume
+  url: https://pokeapi.co/api/v2/move/436/
+- id: 437
+  slug: leaf-storm
+  name: Leaf Storm
+  url: https://pokeapi.co/api/v2/move/437/
+- id: 438
+  slug: power-whip
+  name: Power Whip
+  url: https://pokeapi.co/api/v2/move/438/
+- id: 439
+  slug: rock-wrecker
+  name: Rock Wrecker
+  url: https://pokeapi.co/api/v2/move/439/
+- id: 440
+  slug: cross-poison
+  name: Cross Poison
+  url: https://pokeapi.co/api/v2/move/440/
+- id: 441
+  slug: gunk-shot
+  name: Gunk Shot
+  url: https://pokeapi.co/api/v2/move/441/
+- id: 442
+  slug: iron-head
+  name: Iron Head
+  url: https://pokeapi.co/api/v2/move/442/
+- id: 443
+  slug: magnet-bomb
+  name: Magnet Bomb
+  url: https://pokeapi.co/api/v2/move/443/
+- id: 444
+  slug: stone-edge
+  name: Stone Edge
+  url: https://pokeapi.co/api/v2/move/444/
+- id: 445
+  slug: captivate
+  name: Captivate
+  url: https://pokeapi.co/api/v2/move/445/
+- id: 446
+  slug: stealth-rock
+  name: Stealth Rock
+  url: https://pokeapi.co/api/v2/move/446/
+- id: 447
+  slug: grass-knot
+  name: Grass Knot
+  url: https://pokeapi.co/api/v2/move/447/
+- id: 448
+  slug: chatter
+  name: Chatter
+  url: https://pokeapi.co/api/v2/move/448/
+- id: 449
+  slug: judgment
+  name: Judgment
+  url: https://pokeapi.co/api/v2/move/449/
+- id: 450
+  slug: bug-bite
+  name: Bug Bite
+  url: https://pokeapi.co/api/v2/move/450/
+- id: 451
+  slug: charge-beam
+  name: Charge Beam
+  url: https://pokeapi.co/api/v2/move/451/
+- id: 452
+  slug: wood-hammer
+  name: Wood Hammer
+  url: https://pokeapi.co/api/v2/move/452/
+- id: 453
+  slug: aqua-jet
+  name: Aqua Jet
+  url: https://pokeapi.co/api/v2/move/453/
+- id: 454
+  slug: attack-order
+  name: Attack Order
+  url: https://pokeapi.co/api/v2/move/454/
+- id: 455
+  slug: defend-order
+  name: Defend Order
+  url: https://pokeapi.co/api/v2/move/455/
+- id: 456
+  slug: heal-order
+  name: Heal Order
+  url: https://pokeapi.co/api/v2/move/456/
+- id: 457
+  slug: head-smash
+  name: Head Smash
+  url: https://pokeapi.co/api/v2/move/457/
+- id: 458
+  slug: double-hit
+  name: Double Hit
+  url: https://pokeapi.co/api/v2/move/458/
+- id: 459
+  slug: roar-of-time
+  name: Roar Of Time
+  url: https://pokeapi.co/api/v2/move/459/
+- id: 460
+  slug: spacial-rend
+  name: Spacial Rend
+  url: https://pokeapi.co/api/v2/move/460/
+- id: 461
+  slug: lunar-dance
+  name: Lunar Dance
+  url: https://pokeapi.co/api/v2/move/461/
+- id: 462
+  slug: crush-grip
+  name: Crush Grip
+  url: https://pokeapi.co/api/v2/move/462/
+- id: 463
+  slug: magma-storm
+  name: Magma Storm
+  url: https://pokeapi.co/api/v2/move/463/
+- id: 464
+  slug: dark-void
+  name: Dark Void
+  url: https://pokeapi.co/api/v2/move/464/
+- id: 465
+  slug: seed-flare
+  name: Seed Flare
+  url: https://pokeapi.co/api/v2/move/465/
+- id: 466
+  slug: ominous-wind
+  name: Ominous Wind
+  url: https://pokeapi.co/api/v2/move/466/
+- id: 467
+  slug: shadow-force
+  name: Shadow Force
+  url: https://pokeapi.co/api/v2/move/467/
+- id: 468
+  slug: hone-claws
+  name: Hone Claws
+  url: https://pokeapi.co/api/v2/move/468/
+- id: 469
+  slug: wide-guard
+  name: Wide Guard
+  url: https://pokeapi.co/api/v2/move/469/
+- id: 470
+  slug: guard-split
+  name: Guard Split
+  url: https://pokeapi.co/api/v2/move/470/
+- id: 471
+  slug: power-split
+  name: Power Split
+  url: https://pokeapi.co/api/v2/move/471/
+- id: 472
+  slug: wonder-room
+  name: Wonder Room
+  url: https://pokeapi.co/api/v2/move/472/
+- id: 473
+  slug: psyshock
+  name: Psyshock
+  url: https://pokeapi.co/api/v2/move/473/
+- id: 474
+  slug: venoshock
+  name: Venoshock
+  url: https://pokeapi.co/api/v2/move/474/
+- id: 475
+  slug: autotomize
+  name: Autotomize
+  url: https://pokeapi.co/api/v2/move/475/
+- id: 476
+  slug: rage-powder
+  name: Rage Powder
+  url: https://pokeapi.co/api/v2/move/476/
+- id: 477
+  slug: telekinesis
+  name: Telekinesis
+  url: https://pokeapi.co/api/v2/move/477/
+- id: 478
+  slug: magic-room
+  name: Magic Room
+  url: https://pokeapi.co/api/v2/move/478/
+- id: 479
+  slug: smack-down
+  name: Smack Down
+  url: https://pokeapi.co/api/v2/move/479/
+- id: 480
+  slug: storm-throw
+  name: Storm Throw
+  url: https://pokeapi.co/api/v2/move/480/
+- id: 481
+  slug: flame-burst
+  name: Flame Burst
+  url: https://pokeapi.co/api/v2/move/481/
+- id: 482
+  slug: sludge-wave
+  name: Sludge Wave
+  url: https://pokeapi.co/api/v2/move/482/
+- id: 483
+  slug: quiver-dance
+  name: Quiver Dance
+  url: https://pokeapi.co/api/v2/move/483/
+- id: 484
+  slug: heavy-slam
+  name: Heavy Slam
+  url: https://pokeapi.co/api/v2/move/484/
+- id: 485
+  slug: synchronoise
+  name: Synchronoise
+  url: https://pokeapi.co/api/v2/move/485/
+- id: 486
+  slug: electro-ball
+  name: Electro Ball
+  url: https://pokeapi.co/api/v2/move/486/
+- id: 487
+  slug: soak
+  name: Soak
+  url: https://pokeapi.co/api/v2/move/487/
+- id: 488
+  slug: flame-charge
+  name: Flame Charge
+  url: https://pokeapi.co/api/v2/move/488/
+- id: 489
+  slug: coil
+  name: Coil
+  url: https://pokeapi.co/api/v2/move/489/
+- id: 490
+  slug: low-sweep
+  name: Low Sweep
+  url: https://pokeapi.co/api/v2/move/490/
+- id: 491
+  slug: acid-spray
+  name: Acid Spray
+  url: https://pokeapi.co/api/v2/move/491/
+- id: 492
+  slug: foul-play
+  name: Foul Play
+  url: https://pokeapi.co/api/v2/move/492/
+- id: 493
+  slug: simple-beam
+  name: Simple Beam
+  url: https://pokeapi.co/api/v2/move/493/
+- id: 494
+  slug: entrainment
+  name: Entrainment
+  url: https://pokeapi.co/api/v2/move/494/
+- id: 495
+  slug: after-you
+  name: After You
+  url: https://pokeapi.co/api/v2/move/495/
+- id: 496
+  slug: round
+  name: Round
+  url: https://pokeapi.co/api/v2/move/496/
+- id: 497
+  slug: echoed-voice
+  name: Echoed Voice
+  url: https://pokeapi.co/api/v2/move/497/
+- id: 498
+  slug: chip-away
+  name: Chip Away
+  url: https://pokeapi.co/api/v2/move/498/
+- id: 499
+  slug: clear-smog
+  name: Clear Smog
+  url: https://pokeapi.co/api/v2/move/499/
+- id: 500
+  slug: stored-power
+  name: Stored Power
+  url: https://pokeapi.co/api/v2/move/500/
+- id: 501
+  slug: quick-guard
+  name: Quick Guard
+  url: https://pokeapi.co/api/v2/move/501/
+- id: 502
+  slug: ally-switch
+  name: Ally Switch
+  url: https://pokeapi.co/api/v2/move/502/
+- id: 503
+  slug: scald
+  name: Scald
+  url: https://pokeapi.co/api/v2/move/503/
+- id: 504
+  slug: shell-smash
+  name: Shell Smash
+  url: https://pokeapi.co/api/v2/move/504/
+- id: 505
+  slug: heal-pulse
+  name: Heal Pulse
+  url: https://pokeapi.co/api/v2/move/505/
+- id: 506
+  slug: hex
+  name: Hex
+  url: https://pokeapi.co/api/v2/move/506/
+- id: 507
+  slug: sky-drop
+  name: Sky Drop
+  url: https://pokeapi.co/api/v2/move/507/
+- id: 508
+  slug: shift-gear
+  name: Shift Gear
+  url: https://pokeapi.co/api/v2/move/508/
+- id: 509
+  slug: circle-throw
+  name: Circle Throw
+  url: https://pokeapi.co/api/v2/move/509/
+- id: 510
+  slug: incinerate
+  name: Incinerate
+  url: https://pokeapi.co/api/v2/move/510/
+- id: 511
+  slug: quash
+  name: Quash
+  url: https://pokeapi.co/api/v2/move/511/
+- id: 512
+  slug: acrobatics
+  name: Acrobatics
+  url: https://pokeapi.co/api/v2/move/512/
+- id: 513
+  slug: reflect-type
+  name: Reflect Type
+  url: https://pokeapi.co/api/v2/move/513/
+- id: 514
+  slug: retaliate
+  name: Retaliate
+  url: https://pokeapi.co/api/v2/move/514/
+- id: 515
+  slug: final-gambit
+  name: Final Gambit
+  url: https://pokeapi.co/api/v2/move/515/
+- id: 516
+  slug: bestow
+  name: Bestow
+  url: https://pokeapi.co/api/v2/move/516/
+- id: 517
+  slug: inferno
+  name: Inferno
+  url: https://pokeapi.co/api/v2/move/517/
+- id: 518
+  slug: water-pledge
+  name: Water Pledge
+  url: https://pokeapi.co/api/v2/move/518/
+- id: 519
+  slug: fire-pledge
+  name: Fire Pledge
+  url: https://pokeapi.co/api/v2/move/519/
+- id: 520
+  slug: grass-pledge
+  name: Grass Pledge
+  url: https://pokeapi.co/api/v2/move/520/
+- id: 521
+  slug: volt-switch
+  name: Volt Switch
+  url: https://pokeapi.co/api/v2/move/521/
+- id: 522
+  slug: struggle-bug
+  name: Struggle Bug
+  url: https://pokeapi.co/api/v2/move/522/
+- id: 523
+  slug: bulldoze
+  name: Bulldoze
+  url: https://pokeapi.co/api/v2/move/523/
+- id: 524
+  slug: frost-breath
+  name: Frost Breath
+  url: https://pokeapi.co/api/v2/move/524/
+- id: 525
+  slug: dragon-tail
+  name: Dragon Tail
+  url: https://pokeapi.co/api/v2/move/525/
+- id: 526
+  slug: work-up
+  name: Work Up
+  url: https://pokeapi.co/api/v2/move/526/
+- id: 527
+  slug: electroweb
+  name: Electroweb
+  url: https://pokeapi.co/api/v2/move/527/
+- id: 528
+  slug: wild-charge
+  name: Wild Charge
+  url: https://pokeapi.co/api/v2/move/528/
+- id: 529
+  slug: drill-run
+  name: Drill Run
+  url: https://pokeapi.co/api/v2/move/529/
+- id: 530
+  slug: dual-chop
+  name: Dual Chop
+  url: https://pokeapi.co/api/v2/move/530/
+- id: 531
+  slug: heart-stamp
+  name: Heart Stamp
+  url: https://pokeapi.co/api/v2/move/531/
+- id: 532
+  slug: horn-leech
+  name: Horn Leech
+  url: https://pokeapi.co/api/v2/move/532/
+- id: 533
+  slug: sacred-sword
+  name: Sacred Sword
+  url: https://pokeapi.co/api/v2/move/533/
+- id: 534
+  slug: razor-shell
+  name: Razor Shell
+  url: https://pokeapi.co/api/v2/move/534/
+- id: 535
+  slug: heat-crash
+  name: Heat Crash
+  url: https://pokeapi.co/api/v2/move/535/
+- id: 536
+  slug: leaf-tornado
+  name: Leaf Tornado
+  url: https://pokeapi.co/api/v2/move/536/
+- id: 537
+  slug: steamroller
+  name: Steamroller
+  url: https://pokeapi.co/api/v2/move/537/
+- id: 538
+  slug: cotton-guard
+  name: Cotton Guard
+  url: https://pokeapi.co/api/v2/move/538/
+- id: 539
+  slug: night-daze
+  name: Night Daze
+  url: https://pokeapi.co/api/v2/move/539/
+- id: 540
+  slug: psystrike
+  name: Psystrike
+  url: https://pokeapi.co/api/v2/move/540/
+- id: 541
+  slug: tail-slap
+  name: Tail Slap
+  url: https://pokeapi.co/api/v2/move/541/
+- id: 542
+  slug: hurricane
+  name: Hurricane
+  url: https://pokeapi.co/api/v2/move/542/
+- id: 543
+  slug: head-charge
+  name: Head Charge
+  url: https://pokeapi.co/api/v2/move/543/
+- id: 544
+  slug: gear-grind
+  name: Gear Grind
+  url: https://pokeapi.co/api/v2/move/544/
+- id: 545
+  slug: searing-shot
+  name: Searing Shot
+  url: https://pokeapi.co/api/v2/move/545/
+- id: 546
+  slug: techno-blast
+  name: Techno Blast
+  url: https://pokeapi.co/api/v2/move/546/
+- id: 547
+  slug: relic-song
+  name: Relic Song
+  url: https://pokeapi.co/api/v2/move/547/
+- id: 548
+  slug: secret-sword
+  name: Secret Sword
+  url: https://pokeapi.co/api/v2/move/548/
+- id: 549
+  slug: glaciate
+  name: Glaciate
+  url: https://pokeapi.co/api/v2/move/549/
+- id: 550
+  slug: bolt-strike
+  name: Bolt Strike
+  url: https://pokeapi.co/api/v2/move/550/
+- id: 551
+  slug: blue-flare
+  name: Blue Flare
+  url: https://pokeapi.co/api/v2/move/551/
+- id: 552
+  slug: fiery-dance
+  name: Fiery Dance
+  url: https://pokeapi.co/api/v2/move/552/
+- id: 553
+  slug: freeze-shock
+  name: Freeze Shock
+  url: https://pokeapi.co/api/v2/move/553/
+- id: 554
+  slug: ice-burn
+  name: Ice Burn
+  url: https://pokeapi.co/api/v2/move/554/
+- id: 555
+  slug: snarl
+  name: Snarl
+  url: https://pokeapi.co/api/v2/move/555/
+- id: 556
+  slug: icicle-crash
+  name: Icicle Crash
+  url: https://pokeapi.co/api/v2/move/556/
+- id: 557
+  slug: v-create
+  name: V Create
+  url: https://pokeapi.co/api/v2/move/557/
+- id: 558
+  slug: fusion-flare
+  name: Fusion Flare
+  url: https://pokeapi.co/api/v2/move/558/
+- id: 559
+  slug: fusion-bolt
+  name: Fusion Bolt
+  url: https://pokeapi.co/api/v2/move/559/
+- id: 560
+  slug: flying-press
+  name: Flying Press
+  url: https://pokeapi.co/api/v2/move/560/
+- id: 561
+  slug: mat-block
+  name: Mat Block
+  url: https://pokeapi.co/api/v2/move/561/
+- id: 562
+  slug: belch
+  name: Belch
+  url: https://pokeapi.co/api/v2/move/562/
+- id: 563
+  slug: rototiller
+  name: Rototiller
+  url: https://pokeapi.co/api/v2/move/563/
+- id: 564
+  slug: sticky-web
+  name: Sticky Web
+  url: https://pokeapi.co/api/v2/move/564/
+- id: 565
+  slug: fell-stinger
+  name: Fell Stinger
+  url: https://pokeapi.co/api/v2/move/565/
+- id: 566
+  slug: phantom-force
+  name: Phantom Force
+  url: https://pokeapi.co/api/v2/move/566/
+- id: 567
+  slug: trick-or-treat
+  name: Trick Or Treat
+  url: https://pokeapi.co/api/v2/move/567/
+- id: 568
+  slug: noble-roar
+  name: Noble Roar
+  url: https://pokeapi.co/api/v2/move/568/
+- id: 569
+  slug: ion-deluge
+  name: Ion Deluge
+  url: https://pokeapi.co/api/v2/move/569/
+- id: 570
+  slug: parabolic-charge
+  name: Parabolic Charge
+  url: https://pokeapi.co/api/v2/move/570/
+- id: 571
+  slug: forests-curse
+  name: Forests Curse
+  url: https://pokeapi.co/api/v2/move/571/
+- id: 572
+  slug: petal-blizzard
+  name: Petal Blizzard
+  url: https://pokeapi.co/api/v2/move/572/
+- id: 573
+  slug: freeze-dry
+  name: Freeze Dry
+  url: https://pokeapi.co/api/v2/move/573/
+- id: 574
+  slug: disarming-voice
+  name: Disarming Voice
+  url: https://pokeapi.co/api/v2/move/574/
+- id: 575
+  slug: parting-shot
+  name: Parting Shot
+  url: https://pokeapi.co/api/v2/move/575/
+- id: 576
+  slug: topsy-turvy
+  name: Topsy Turvy
+  url: https://pokeapi.co/api/v2/move/576/
+- id: 577
+  slug: draining-kiss
+  name: Draining Kiss
+  url: https://pokeapi.co/api/v2/move/577/
+- id: 578
+  slug: crafty-shield
+  name: Crafty Shield
+  url: https://pokeapi.co/api/v2/move/578/
+- id: 579
+  slug: flower-shield
+  name: Flower Shield
+  url: https://pokeapi.co/api/v2/move/579/
+- id: 580
+  slug: grassy-terrain
+  name: Grassy Terrain
+  url: https://pokeapi.co/api/v2/move/580/
+- id: 581
+  slug: misty-terrain
+  name: Misty Terrain
+  url: https://pokeapi.co/api/v2/move/581/
+- id: 582
+  slug: electrify
+  name: Electrify
+  url: https://pokeapi.co/api/v2/move/582/
+- id: 583
+  slug: play-rough
+  name: Play Rough
+  url: https://pokeapi.co/api/v2/move/583/
+- id: 584
+  slug: fairy-wind
+  name: Fairy Wind
+  url: https://pokeapi.co/api/v2/move/584/
+- id: 585
+  slug: moonblast
+  name: Moonblast
+  url: https://pokeapi.co/api/v2/move/585/
+- id: 586
+  slug: boomburst
+  name: Boomburst
+  url: https://pokeapi.co/api/v2/move/586/
+- id: 587
+  slug: fairy-lock
+  name: Fairy Lock
+  url: https://pokeapi.co/api/v2/move/587/
+- id: 588
+  slug: kings-shield
+  name: Kings Shield
+  url: https://pokeapi.co/api/v2/move/588/
+- id: 589
+  slug: play-nice
+  name: Play Nice
+  url: https://pokeapi.co/api/v2/move/589/
+- id: 590
+  slug: confide
+  name: Confide
+  url: https://pokeapi.co/api/v2/move/590/
+- id: 591
+  slug: diamond-storm
+  name: Diamond Storm
+  url: https://pokeapi.co/api/v2/move/591/
+- id: 592
+  slug: steam-eruption
+  name: Steam Eruption
+  url: https://pokeapi.co/api/v2/move/592/
+- id: 593
+  slug: hyperspace-hole
+  name: Hyperspace Hole
+  url: https://pokeapi.co/api/v2/move/593/
+- id: 594
+  slug: water-shuriken
+  name: Water Shuriken
+  url: https://pokeapi.co/api/v2/move/594/
+- id: 595
+  slug: mystical-fire
+  name: Mystical Fire
+  url: https://pokeapi.co/api/v2/move/595/
+- id: 596
+  slug: spiky-shield
+  name: Spiky Shield
+  url: https://pokeapi.co/api/v2/move/596/
+- id: 597
+  slug: aromatic-mist
+  name: Aromatic Mist
+  url: https://pokeapi.co/api/v2/move/597/
+- id: 598
+  slug: eerie-impulse
+  name: Eerie Impulse
+  url: https://pokeapi.co/api/v2/move/598/
+- id: 599
+  slug: venom-drench
+  name: Venom Drench
+  url: https://pokeapi.co/api/v2/move/599/
+- id: 600
+  slug: powder
+  name: Powder
+  url: https://pokeapi.co/api/v2/move/600/
+- id: 601
+  slug: geomancy
+  name: Geomancy
+  url: https://pokeapi.co/api/v2/move/601/
+- id: 602
+  slug: magnetic-flux
+  name: Magnetic Flux
+  url: https://pokeapi.co/api/v2/move/602/
+- id: 603
+  slug: happy-hour
+  name: Happy Hour
+  url: https://pokeapi.co/api/v2/move/603/
+- id: 604
+  slug: electric-terrain
+  name: Electric Terrain
+  url: https://pokeapi.co/api/v2/move/604/
+- id: 605
+  slug: dazzling-gleam
+  name: Dazzling Gleam
+  url: https://pokeapi.co/api/v2/move/605/
+- id: 606
+  slug: celebrate
+  name: Celebrate
+  url: https://pokeapi.co/api/v2/move/606/
+- id: 607
+  slug: hold-hands
+  name: Hold Hands
+  url: https://pokeapi.co/api/v2/move/607/
+- id: 608
+  slug: baby-doll-eyes
+  name: Baby Doll Eyes
+  url: https://pokeapi.co/api/v2/move/608/
+- id: 609
+  slug: nuzzle
+  name: Nuzzle
+  url: https://pokeapi.co/api/v2/move/609/
+- id: 610
+  slug: hold-back
+  name: Hold Back
+  url: https://pokeapi.co/api/v2/move/610/
+- id: 611
+  slug: infestation
+  name: Infestation
+  url: https://pokeapi.co/api/v2/move/611/
+- id: 612
+  slug: power-up-punch
+  name: Power Up Punch
+  url: https://pokeapi.co/api/v2/move/612/
+- id: 613
+  slug: oblivion-wing
+  name: Oblivion Wing
+  url: https://pokeapi.co/api/v2/move/613/
+- id: 614
+  slug: thousand-arrows
+  name: Thousand Arrows
+  url: https://pokeapi.co/api/v2/move/614/
+- id: 615
+  slug: thousand-waves
+  name: Thousand Waves
+  url: https://pokeapi.co/api/v2/move/615/
+- id: 616
+  slug: lands-wrath
+  name: Lands Wrath
+  url: https://pokeapi.co/api/v2/move/616/
+- id: 617
+  slug: light-of-ruin
+  name: Light Of Ruin
+  url: https://pokeapi.co/api/v2/move/617/
+- id: 618
+  slug: origin-pulse
+  name: Origin Pulse
+  url: https://pokeapi.co/api/v2/move/618/
+- id: 619
+  slug: precipice-blades
+  name: Precipice Blades
+  url: https://pokeapi.co/api/v2/move/619/
+- id: 620
+  slug: dragon-ascent
+  name: Dragon Ascent
+  url: https://pokeapi.co/api/v2/move/620/
+- id: 621
+  slug: hyperspace-fury
+  name: Hyperspace Fury
+  url: https://pokeapi.co/api/v2/move/621/
+- id: 622
+  slug: breakneck-blitz--physical
+  name: Breakneck Blitz  Physical
+  url: https://pokeapi.co/api/v2/move/622/
+- id: 623
+  slug: breakneck-blitz--special
+  name: Breakneck Blitz  Special
+  url: https://pokeapi.co/api/v2/move/623/
+- id: 624
+  slug: all-out-pummeling--physical
+  name: All Out Pummeling  Physical
+  url: https://pokeapi.co/api/v2/move/624/
+- id: 625
+  slug: all-out-pummeling--special
+  name: All Out Pummeling  Special
+  url: https://pokeapi.co/api/v2/move/625/
+- id: 626
+  slug: supersonic-skystrike--physical
+  name: Supersonic Skystrike  Physical
+  url: https://pokeapi.co/api/v2/move/626/
+- id: 627
+  slug: supersonic-skystrike--special
+  name: Supersonic Skystrike  Special
+  url: https://pokeapi.co/api/v2/move/627/
+- id: 628
+  slug: acid-downpour--physical
+  name: Acid Downpour  Physical
+  url: https://pokeapi.co/api/v2/move/628/
+- id: 629
+  slug: acid-downpour--special
+  name: Acid Downpour  Special
+  url: https://pokeapi.co/api/v2/move/629/
+- id: 630
+  slug: tectonic-rage--physical
+  name: Tectonic Rage  Physical
+  url: https://pokeapi.co/api/v2/move/630/
+- id: 631
+  slug: tectonic-rage--special
+  name: Tectonic Rage  Special
+  url: https://pokeapi.co/api/v2/move/631/
+- id: 632
+  slug: continental-crush--physical
+  name: Continental Crush  Physical
+  url: https://pokeapi.co/api/v2/move/632/
+- id: 633
+  slug: continental-crush--special
+  name: Continental Crush  Special
+  url: https://pokeapi.co/api/v2/move/633/
+- id: 634
+  slug: savage-spin-out--physical
+  name: Savage Spin Out  Physical
+  url: https://pokeapi.co/api/v2/move/634/
+- id: 635
+  slug: savage-spin-out--special
+  name: Savage Spin Out  Special
+  url: https://pokeapi.co/api/v2/move/635/
+- id: 636
+  slug: never-ending-nightmare--physical
+  name: Never Ending Nightmare  Physical
+  url: https://pokeapi.co/api/v2/move/636/
+- id: 637
+  slug: never-ending-nightmare--special
+  name: Never Ending Nightmare  Special
+  url: https://pokeapi.co/api/v2/move/637/
+- id: 638
+  slug: corkscrew-crash--physical
+  name: Corkscrew Crash  Physical
+  url: https://pokeapi.co/api/v2/move/638/
+- id: 639
+  slug: corkscrew-crash--special
+  name: Corkscrew Crash  Special
+  url: https://pokeapi.co/api/v2/move/639/
+- id: 640
+  slug: inferno-overdrive--physical
+  name: Inferno Overdrive  Physical
+  url: https://pokeapi.co/api/v2/move/640/
+- id: 641
+  slug: inferno-overdrive--special
+  name: Inferno Overdrive  Special
+  url: https://pokeapi.co/api/v2/move/641/
+- id: 642
+  slug: hydro-vortex--physical
+  name: Hydro Vortex  Physical
+  url: https://pokeapi.co/api/v2/move/642/
+- id: 643
+  slug: hydro-vortex--special
+  name: Hydro Vortex  Special
+  url: https://pokeapi.co/api/v2/move/643/
+- id: 644
+  slug: bloom-doom--physical
+  name: Bloom Doom  Physical
+  url: https://pokeapi.co/api/v2/move/644/
+- id: 645
+  slug: bloom-doom--special
+  name: Bloom Doom  Special
+  url: https://pokeapi.co/api/v2/move/645/
+- id: 646
+  slug: gigavolt-havoc--physical
+  name: Gigavolt Havoc  Physical
+  url: https://pokeapi.co/api/v2/move/646/
+- id: 647
+  slug: gigavolt-havoc--special
+  name: Gigavolt Havoc  Special
+  url: https://pokeapi.co/api/v2/move/647/
+- id: 648
+  slug: shattered-psyche--physical
+  name: Shattered Psyche  Physical
+  url: https://pokeapi.co/api/v2/move/648/
+- id: 649
+  slug: shattered-psyche--special
+  name: Shattered Psyche  Special
+  url: https://pokeapi.co/api/v2/move/649/
+- id: 650
+  slug: subzero-slammer--physical
+  name: Subzero Slammer  Physical
+  url: https://pokeapi.co/api/v2/move/650/
+- id: 651
+  slug: subzero-slammer--special
+  name: Subzero Slammer  Special
+  url: https://pokeapi.co/api/v2/move/651/
+- id: 652
+  slug: devastating-drake--physical
+  name: Devastating Drake  Physical
+  url: https://pokeapi.co/api/v2/move/652/
+- id: 653
+  slug: devastating-drake--special
+  name: Devastating Drake  Special
+  url: https://pokeapi.co/api/v2/move/653/
+- id: 654
+  slug: black-hole-eclipse--physical
+  name: Black Hole Eclipse  Physical
+  url: https://pokeapi.co/api/v2/move/654/
+- id: 655
+  slug: black-hole-eclipse--special
+  name: Black Hole Eclipse  Special
+  url: https://pokeapi.co/api/v2/move/655/
+- id: 656
+  slug: twinkle-tackle--physical
+  name: Twinkle Tackle  Physical
+  url: https://pokeapi.co/api/v2/move/656/
+- id: 657
+  slug: twinkle-tackle--special
+  name: Twinkle Tackle  Special
+  url: https://pokeapi.co/api/v2/move/657/
+- id: 658
+  slug: catastropika
+  name: Catastropika
+  url: https://pokeapi.co/api/v2/move/658/
+- id: 659
+  slug: shore-up
+  name: Shore Up
+  url: https://pokeapi.co/api/v2/move/659/
+- id: 660
+  slug: first-impression
+  name: First Impression
+  url: https://pokeapi.co/api/v2/move/660/
+- id: 661
+  slug: baneful-bunker
+  name: Baneful Bunker
+  url: https://pokeapi.co/api/v2/move/661/
+- id: 662
+  slug: spirit-shackle
+  name: Spirit Shackle
+  url: https://pokeapi.co/api/v2/move/662/
+- id: 663
+  slug: darkest-lariat
+  name: Darkest Lariat
+  url: https://pokeapi.co/api/v2/move/663/
+- id: 664
+  slug: sparkling-aria
+  name: Sparkling Aria
+  url: https://pokeapi.co/api/v2/move/664/
+- id: 665
+  slug: ice-hammer
+  name: Ice Hammer
+  url: https://pokeapi.co/api/v2/move/665/
+- id: 666
+  slug: floral-healing
+  name: Floral Healing
+  url: https://pokeapi.co/api/v2/move/666/
+- id: 667
+  slug: high-horsepower
+  name: High Horsepower
+  url: https://pokeapi.co/api/v2/move/667/
+- id: 668
+  slug: strength-sap
+  name: Strength Sap
+  url: https://pokeapi.co/api/v2/move/668/
+- id: 669
+  slug: solar-blade
+  name: Solar Blade
+  url: https://pokeapi.co/api/v2/move/669/
+- id: 670
+  slug: leafage
+  name: Leafage
+  url: https://pokeapi.co/api/v2/move/670/
+- id: 671
+  slug: spotlight
+  name: Spotlight
+  url: https://pokeapi.co/api/v2/move/671/
+- id: 672
+  slug: toxic-thread
+  name: Toxic Thread
+  url: https://pokeapi.co/api/v2/move/672/
+- id: 673
+  slug: laser-focus
+  name: Laser Focus
+  url: https://pokeapi.co/api/v2/move/673/
+- id: 674
+  slug: gear-up
+  name: Gear Up
+  url: https://pokeapi.co/api/v2/move/674/
+- id: 675
+  slug: throat-chop
+  name: Throat Chop
+  url: https://pokeapi.co/api/v2/move/675/
+- id: 676
+  slug: pollen-puff
+  name: Pollen Puff
+  url: https://pokeapi.co/api/v2/move/676/
+- id: 677
+  slug: anchor-shot
+  name: Anchor Shot
+  url: https://pokeapi.co/api/v2/move/677/
+- id: 678
+  slug: psychic-terrain
+  name: Psychic Terrain
+  url: https://pokeapi.co/api/v2/move/678/
+- id: 679
+  slug: lunge
+  name: Lunge
+  url: https://pokeapi.co/api/v2/move/679/
+- id: 680
+  slug: fire-lash
+  name: Fire Lash
+  url: https://pokeapi.co/api/v2/move/680/
+- id: 681
+  slug: power-trip
+  name: Power Trip
+  url: https://pokeapi.co/api/v2/move/681/
+- id: 682
+  slug: burn-up
+  name: Burn Up
+  url: https://pokeapi.co/api/v2/move/682/
+- id: 683
+  slug: speed-swap
+  name: Speed Swap
+  url: https://pokeapi.co/api/v2/move/683/
+- id: 684
+  slug: smart-strike
+  name: Smart Strike
+  url: https://pokeapi.co/api/v2/move/684/
+- id: 685
+  slug: purify
+  name: Purify
+  url: https://pokeapi.co/api/v2/move/685/
+- id: 686
+  slug: revelation-dance
+  name: Revelation Dance
+  url: https://pokeapi.co/api/v2/move/686/
+- id: 687
+  slug: core-enforcer
+  name: Core Enforcer
+  url: https://pokeapi.co/api/v2/move/687/
+- id: 688
+  slug: trop-kick
+  name: Trop Kick
+  url: https://pokeapi.co/api/v2/move/688/
+- id: 689
+  slug: instruct
+  name: Instruct
+  url: https://pokeapi.co/api/v2/move/689/
+- id: 690
+  slug: beak-blast
+  name: Beak Blast
+  url: https://pokeapi.co/api/v2/move/690/
+- id: 691
+  slug: clanging-scales
+  name: Clanging Scales
+  url: https://pokeapi.co/api/v2/move/691/
+- id: 692
+  slug: dragon-hammer
+  name: Dragon Hammer
+  url: https://pokeapi.co/api/v2/move/692/
+- id: 693
+  slug: brutal-swing
+  name: Brutal Swing
+  url: https://pokeapi.co/api/v2/move/693/
+- id: 694
+  slug: aurora-veil
+  name: Aurora Veil
+  url: https://pokeapi.co/api/v2/move/694/
+- id: 695
+  slug: sinister-arrow-raid
+  name: Sinister Arrow Raid
+  url: https://pokeapi.co/api/v2/move/695/
+- id: 696
+  slug: malicious-moonsault
+  name: Malicious Moonsault
+  url: https://pokeapi.co/api/v2/move/696/
+- id: 697
+  slug: oceanic-operetta
+  name: Oceanic Operetta
+  url: https://pokeapi.co/api/v2/move/697/
+- id: 698
+  slug: guardian-of-alola
+  name: Guardian Of Alola
+  url: https://pokeapi.co/api/v2/move/698/
+- id: 699
+  slug: soul-stealing-7-star-strike
+  name: Soul Stealing 7 Star Strike
+  url: https://pokeapi.co/api/v2/move/699/
+- id: 700
+  slug: stoked-sparksurfer
+  name: Stoked Sparksurfer
+  url: https://pokeapi.co/api/v2/move/700/
+- id: 701
+  slug: pulverizing-pancake
+  name: Pulverizing Pancake
+  url: https://pokeapi.co/api/v2/move/701/
+- id: 702
+  slug: extreme-evoboost
+  name: Extreme Evoboost
+  url: https://pokeapi.co/api/v2/move/702/
+- id: 703
+  slug: genesis-supernova
+  name: Genesis Supernova
+  url: https://pokeapi.co/api/v2/move/703/
+- id: 704
+  slug: shell-trap
+  name: Shell Trap
+  url: https://pokeapi.co/api/v2/move/704/
+- id: 705
+  slug: fleur-cannon
+  name: Fleur Cannon
+  url: https://pokeapi.co/api/v2/move/705/
+- id: 706
+  slug: psychic-fangs
+  name: Psychic Fangs
+  url: https://pokeapi.co/api/v2/move/706/
+- id: 707
+  slug: stomping-tantrum
+  name: Stomping Tantrum
+  url: https://pokeapi.co/api/v2/move/707/
+- id: 708
+  slug: shadow-bone
+  name: Shadow Bone
+  url: https://pokeapi.co/api/v2/move/708/
+- id: 709
+  slug: accelerock
+  name: Accelerock
+  url: https://pokeapi.co/api/v2/move/709/
+- id: 710
+  slug: liquidation
+  name: Liquidation
+  url: https://pokeapi.co/api/v2/move/710/
+- id: 711
+  slug: prismatic-laser
+  name: Prismatic Laser
+  url: https://pokeapi.co/api/v2/move/711/
+- id: 712
+  slug: spectral-thief
+  name: Spectral Thief
+  url: https://pokeapi.co/api/v2/move/712/
+- id: 713
+  slug: sunsteel-strike
+  name: Sunsteel Strike
+  url: https://pokeapi.co/api/v2/move/713/
+- id: 714
+  slug: moongeist-beam
+  name: Moongeist Beam
+  url: https://pokeapi.co/api/v2/move/714/
+- id: 715
+  slug: tearful-look
+  name: Tearful Look
+  url: https://pokeapi.co/api/v2/move/715/
+- id: 716
+  slug: zing-zap
+  name: Zing Zap
+  url: https://pokeapi.co/api/v2/move/716/
+- id: 717
+  slug: natures-madness
+  name: Natures Madness
+  url: https://pokeapi.co/api/v2/move/717/
+- id: 718
+  slug: multi-attack
+  name: Multi Attack
+  url: https://pokeapi.co/api/v2/move/718/
+- id: 719
+  slug: 10-000-000-volt-thunderbolt
+  name: 10 000 000 Volt Thunderbolt
+  url: https://pokeapi.co/api/v2/move/719/
+- id: 720
+  slug: mind-blown
+  name: Mind Blown
+  url: https://pokeapi.co/api/v2/move/720/
+- id: 721
+  slug: plasma-fists
+  name: Plasma Fists
+  url: https://pokeapi.co/api/v2/move/721/
+- id: 722
+  slug: photon-geyser
+  name: Photon Geyser
+  url: https://pokeapi.co/api/v2/move/722/
+- id: 723
+  slug: light-that-burns-the-sky
+  name: Light That Burns The Sky
+  url: https://pokeapi.co/api/v2/move/723/
+- id: 724
+  slug: searing-sunraze-smash
+  name: Searing Sunraze Smash
+  url: https://pokeapi.co/api/v2/move/724/
+- id: 725
+  slug: menacing-moonraze-maelstrom
+  name: Menacing Moonraze Maelstrom
+  url: https://pokeapi.co/api/v2/move/725/
+- id: 726
+  slug: lets-snuggle-forever
+  name: Lets Snuggle Forever
+  url: https://pokeapi.co/api/v2/move/726/
+- id: 727
+  slug: splintered-stormshards
+  name: Splintered Stormshards
+  url: https://pokeapi.co/api/v2/move/727/
+- id: 728
+  slug: clangorous-soulblaze
+  name: Clangorous Soulblaze
+  url: https://pokeapi.co/api/v2/move/728/
+- id: 729
+  slug: zippy-zap
+  name: Zippy Zap
+  url: https://pokeapi.co/api/v2/move/729/
+- id: 730
+  slug: splishy-splash
+  name: Splishy Splash
+  url: https://pokeapi.co/api/v2/move/730/
+- id: 731
+  slug: floaty-fall
+  name: Floaty Fall
+  url: https://pokeapi.co/api/v2/move/731/
+- id: 732
+  slug: pika-papow
+  name: Pika Papow
+  url: https://pokeapi.co/api/v2/move/732/
+- id: 733
+  slug: bouncy-bubble
+  name: Bouncy Bubble
+  url: https://pokeapi.co/api/v2/move/733/
+- id: 734
+  slug: buzzy-buzz
+  name: Buzzy Buzz
+  url: https://pokeapi.co/api/v2/move/734/
+- id: 735
+  slug: sizzly-slide
+  name: Sizzly Slide
+  url: https://pokeapi.co/api/v2/move/735/
+- id: 736
+  slug: glitzy-glow
+  name: Glitzy Glow
+  url: https://pokeapi.co/api/v2/move/736/
+- id: 737
+  slug: baddy-bad
+  name: Baddy Bad
+  url: https://pokeapi.co/api/v2/move/737/
+- id: 738
+  slug: sappy-seed
+  name: Sappy Seed
+  url: https://pokeapi.co/api/v2/move/738/
+- id: 739
+  slug: freezy-frost
+  name: Freezy Frost
+  url: https://pokeapi.co/api/v2/move/739/
+- id: 740
+  slug: sparkly-swirl
+  name: Sparkly Swirl
+  url: https://pokeapi.co/api/v2/move/740/
+- id: 741
+  slug: veevee-volley
+  name: Veevee Volley
+  url: https://pokeapi.co/api/v2/move/741/
+- id: 742
+  slug: double-iron-bash
+  name: Double Iron Bash
+  url: https://pokeapi.co/api/v2/move/742/
+- id: 743
+  slug: max-guard
+  name: Max Guard
+  url: https://pokeapi.co/api/v2/move/743/
+- id: 744
+  slug: dynamax-cannon
+  name: Dynamax Cannon
+  url: https://pokeapi.co/api/v2/move/744/
+- id: 745
+  slug: snipe-shot
+  name: Snipe Shot
+  url: https://pokeapi.co/api/v2/move/745/
+- id: 746
+  slug: jaw-lock
+  name: Jaw Lock
+  url: https://pokeapi.co/api/v2/move/746/
+- id: 747
+  slug: stuff-cheeks
+  name: Stuff Cheeks
+  url: https://pokeapi.co/api/v2/move/747/
+- id: 748
+  slug: no-retreat
+  name: No Retreat
+  url: https://pokeapi.co/api/v2/move/748/
+- id: 749
+  slug: tar-shot
+  name: Tar Shot
+  url: https://pokeapi.co/api/v2/move/749/
+- id: 750
+  slug: magic-powder
+  name: Magic Powder
+  url: https://pokeapi.co/api/v2/move/750/
+- id: 751
+  slug: dragon-darts
+  name: Dragon Darts
+  url: https://pokeapi.co/api/v2/move/751/
+- id: 752
+  slug: teatime
+  name: Teatime
+  url: https://pokeapi.co/api/v2/move/752/
+- id: 753
+  slug: octolock
+  name: Octolock
+  url: https://pokeapi.co/api/v2/move/753/
+- id: 754
+  slug: bolt-beak
+  name: Bolt Beak
+  url: https://pokeapi.co/api/v2/move/754/
+- id: 755
+  slug: fishious-rend
+  name: Fishious Rend
+  url: https://pokeapi.co/api/v2/move/755/
+- id: 756
+  slug: court-change
+  name: Court Change
+  url: https://pokeapi.co/api/v2/move/756/
+- id: 757
+  slug: max-flare
+  name: Max Flare
+  url: https://pokeapi.co/api/v2/move/757/
+- id: 758
+  slug: max-flutterby
+  name: Max Flutterby
+  url: https://pokeapi.co/api/v2/move/758/
+- id: 759
+  slug: max-lightning
+  name: Max Lightning
+  url: https://pokeapi.co/api/v2/move/759/
+- id: 760
+  slug: max-strike
+  name: Max Strike
+  url: https://pokeapi.co/api/v2/move/760/
+- id: 761
+  slug: max-knuckle
+  name: Max Knuckle
+  url: https://pokeapi.co/api/v2/move/761/
+- id: 762
+  slug: max-phantasm
+  name: Max Phantasm
+  url: https://pokeapi.co/api/v2/move/762/
+- id: 763
+  slug: max-hailstorm
+  name: Max Hailstorm
+  url: https://pokeapi.co/api/v2/move/763/
+- id: 764
+  slug: max-ooze
+  name: Max Ooze
+  url: https://pokeapi.co/api/v2/move/764/
+- id: 765
+  slug: max-geyser
+  name: Max Geyser
+  url: https://pokeapi.co/api/v2/move/765/
+- id: 766
+  slug: max-airstream
+  name: Max Airstream
+  url: https://pokeapi.co/api/v2/move/766/
+- id: 767
+  slug: max-starfall
+  name: Max Starfall
+  url: https://pokeapi.co/api/v2/move/767/
+- id: 768
+  slug: max-wyrmwind
+  name: Max Wyrmwind
+  url: https://pokeapi.co/api/v2/move/768/
+- id: 769
+  slug: max-mindstorm
+  name: Max Mindstorm
+  url: https://pokeapi.co/api/v2/move/769/
+- id: 770
+  slug: max-rockfall
+  name: Max Rockfall
+  url: https://pokeapi.co/api/v2/move/770/
+- id: 771
+  slug: max-quake
+  name: Max Quake
+  url: https://pokeapi.co/api/v2/move/771/
+- id: 772
+  slug: max-darkness
+  name: Max Darkness
+  url: https://pokeapi.co/api/v2/move/772/
+- id: 773
+  slug: max-overgrowth
+  name: Max Overgrowth
+  url: https://pokeapi.co/api/v2/move/773/
+- id: 774
+  slug: max-steelspike
+  name: Max Steelspike
+  url: https://pokeapi.co/api/v2/move/774/
+- id: 775
+  slug: clangorous-soul
+  name: Clangorous Soul
+  url: https://pokeapi.co/api/v2/move/775/
+- id: 776
+  slug: body-press
+  name: Body Press
+  url: https://pokeapi.co/api/v2/move/776/
+- id: 777
+  slug: decorate
+  name: Decorate
+  url: https://pokeapi.co/api/v2/move/777/
+- id: 778
+  slug: drum-beating
+  name: Drum Beating
+  url: https://pokeapi.co/api/v2/move/778/
+- id: 779
+  slug: snap-trap
+  name: Snap Trap
+  url: https://pokeapi.co/api/v2/move/779/
+- id: 780
+  slug: pyro-ball
+  name: Pyro Ball
+  url: https://pokeapi.co/api/v2/move/780/
+- id: 781
+  slug: behemoth-blade
+  name: Behemoth Blade
+  url: https://pokeapi.co/api/v2/move/781/
+- id: 782
+  slug: behemoth-bash
+  name: Behemoth Bash
+  url: https://pokeapi.co/api/v2/move/782/
+- id: 783
+  slug: aura-wheel
+  name: Aura Wheel
+  url: https://pokeapi.co/api/v2/move/783/
+- id: 784
+  slug: breaking-swipe
+  name: Breaking Swipe
+  url: https://pokeapi.co/api/v2/move/784/
+- id: 785
+  slug: branch-poke
+  name: Branch Poke
+  url: https://pokeapi.co/api/v2/move/785/
+- id: 786
+  slug: overdrive
+  name: Overdrive
+  url: https://pokeapi.co/api/v2/move/786/
+- id: 787
+  slug: apple-acid
+  name: Apple Acid
+  url: https://pokeapi.co/api/v2/move/787/
+- id: 788
+  slug: grav-apple
+  name: Grav Apple
+  url: https://pokeapi.co/api/v2/move/788/
+- id: 789
+  slug: spirit-break
+  name: Spirit Break
+  url: https://pokeapi.co/api/v2/move/789/
+- id: 790
+  slug: strange-steam
+  name: Strange Steam
+  url: https://pokeapi.co/api/v2/move/790/
+- id: 791
+  slug: life-dew
+  name: Life Dew
+  url: https://pokeapi.co/api/v2/move/791/
+- id: 792
+  slug: obstruct
+  name: Obstruct
+  url: https://pokeapi.co/api/v2/move/792/
+- id: 793
+  slug: false-surrender
+  name: False Surrender
+  url: https://pokeapi.co/api/v2/move/793/
+- id: 794
+  slug: meteor-assault
+  name: Meteor Assault
+  url: https://pokeapi.co/api/v2/move/794/
+- id: 795
+  slug: eternabeam
+  name: Eternabeam
+  url: https://pokeapi.co/api/v2/move/795/
+- id: 796
+  slug: steel-beam
+  name: Steel Beam
+  url: https://pokeapi.co/api/v2/move/796/
+- id: 797
+  slug: expanding-force
+  name: Expanding Force
+  url: https://pokeapi.co/api/v2/move/797/
+- id: 798
+  slug: steel-roller
+  name: Steel Roller
+  url: https://pokeapi.co/api/v2/move/798/
+- id: 799
+  slug: scale-shot
+  name: Scale Shot
+  url: https://pokeapi.co/api/v2/move/799/
+- id: 800
+  slug: meteor-beam
+  name: Meteor Beam
+  url: https://pokeapi.co/api/v2/move/800/
+- id: 801
+  slug: shell-side-arm
+  name: Shell Side Arm
+  url: https://pokeapi.co/api/v2/move/801/
+- id: 802
+  slug: misty-explosion
+  name: Misty Explosion
+  url: https://pokeapi.co/api/v2/move/802/
+- id: 803
+  slug: grassy-glide
+  name: Grassy Glide
+  url: https://pokeapi.co/api/v2/move/803/
+- id: 804
+  slug: rising-voltage
+  name: Rising Voltage
+  url: https://pokeapi.co/api/v2/move/804/
+- id: 805
+  slug: terrain-pulse
+  name: Terrain Pulse
+  url: https://pokeapi.co/api/v2/move/805/
+- id: 806
+  slug: skitter-smack
+  name: Skitter Smack
+  url: https://pokeapi.co/api/v2/move/806/
+- id: 807
+  slug: burning-jealousy
+  name: Burning Jealousy
+  url: https://pokeapi.co/api/v2/move/807/
+- id: 808
+  slug: lash-out
+  name: Lash Out
+  url: https://pokeapi.co/api/v2/move/808/
+- id: 809
+  slug: poltergeist
+  name: Poltergeist
+  url: https://pokeapi.co/api/v2/move/809/
+- id: 810
+  slug: corrosive-gas
+  name: Corrosive Gas
+  url: https://pokeapi.co/api/v2/move/810/
+- id: 811
+  slug: coaching
+  name: Coaching
+  url: https://pokeapi.co/api/v2/move/811/
+- id: 812
+  slug: flip-turn
+  name: Flip Turn
+  url: https://pokeapi.co/api/v2/move/812/
+- id: 813
+  slug: triple-axel
+  name: Triple Axel
+  url: https://pokeapi.co/api/v2/move/813/
+- id: 814
+  slug: dual-wingbeat
+  name: Dual Wingbeat
+  url: https://pokeapi.co/api/v2/move/814/
+- id: 815
+  slug: scorching-sands
+  name: Scorching Sands
+  url: https://pokeapi.co/api/v2/move/815/
+- id: 816
+  slug: jungle-healing
+  name: Jungle Healing
+  url: https://pokeapi.co/api/v2/move/816/
+- id: 817
+  slug: wicked-blow
+  name: Wicked Blow
+  url: https://pokeapi.co/api/v2/move/817/
+- id: 818
+  slug: surging-strikes
+  name: Surging Strikes
+  url: https://pokeapi.co/api/v2/move/818/
+- id: 819
+  slug: thunder-cage
+  name: Thunder Cage
+  url: https://pokeapi.co/api/v2/move/819/
+- id: 820
+  slug: dragon-energy
+  name: Dragon Energy
+  url: https://pokeapi.co/api/v2/move/820/
+- id: 821
+  slug: freezing-glare
+  name: Freezing Glare
+  url: https://pokeapi.co/api/v2/move/821/
+- id: 822
+  slug: fiery-wrath
+  name: Fiery Wrath
+  url: https://pokeapi.co/api/v2/move/822/
+- id: 823
+  slug: thunderous-kick
+  name: Thunderous Kick
+  url: https://pokeapi.co/api/v2/move/823/
+- id: 824
+  slug: glacial-lance
+  name: Glacial Lance
+  url: https://pokeapi.co/api/v2/move/824/
+- id: 825
+  slug: astral-barrage
+  name: Astral Barrage
+  url: https://pokeapi.co/api/v2/move/825/
+- id: 826
+  slug: eerie-spell
+  name: Eerie Spell
+  url: https://pokeapi.co/api/v2/move/826/
+- id: 827
+  slug: dire-claw
+  name: Dire Claw
+  url: https://pokeapi.co/api/v2/move/827/
+- id: 828
+  slug: psyshield-bash
+  name: Psyshield Bash
+  url: https://pokeapi.co/api/v2/move/828/
+- id: 829
+  slug: power-shift
+  name: Power Shift
+  url: https://pokeapi.co/api/v2/move/829/
+- id: 830
+  slug: stone-axe
+  name: Stone Axe
+  url: https://pokeapi.co/api/v2/move/830/
+- id: 831
+  slug: springtide-storm
+  name: Springtide Storm
+  url: https://pokeapi.co/api/v2/move/831/
+- id: 832
+  slug: mystical-power
+  name: Mystical Power
+  url: https://pokeapi.co/api/v2/move/832/
+- id: 833
+  slug: raging-fury
+  name: Raging Fury
+  url: https://pokeapi.co/api/v2/move/833/
+- id: 834
+  slug: wave-crash
+  name: Wave Crash
+  url: https://pokeapi.co/api/v2/move/834/
+- id: 835
+  slug: chloroblast
+  name: Chloroblast
+  url: https://pokeapi.co/api/v2/move/835/
+- id: 836
+  slug: mountain-gale
+  name: Mountain Gale
+  url: https://pokeapi.co/api/v2/move/836/
+- id: 837
+  slug: victory-dance
+  name: Victory Dance
+  url: https://pokeapi.co/api/v2/move/837/
+- id: 838
+  slug: headlong-rush
+  name: Headlong Rush
+  url: https://pokeapi.co/api/v2/move/838/
+- id: 839
+  slug: barb-barrage
+  name: Barb Barrage
+  url: https://pokeapi.co/api/v2/move/839/
+- id: 840
+  slug: esper-wing
+  name: Esper Wing
+  url: https://pokeapi.co/api/v2/move/840/
+- id: 841
+  slug: bitter-malice
+  name: Bitter Malice
+  url: https://pokeapi.co/api/v2/move/841/
+- id: 842
+  slug: shelter
+  name: Shelter
+  url: https://pokeapi.co/api/v2/move/842/
+- id: 843
+  slug: triple-arrows
+  name: Triple Arrows
+  url: https://pokeapi.co/api/v2/move/843/
+- id: 844
+  slug: infernal-parade
+  name: Infernal Parade
+  url: https://pokeapi.co/api/v2/move/844/
+- id: 845
+  slug: ceaseless-edge
+  name: Ceaseless Edge
+  url: https://pokeapi.co/api/v2/move/845/
+- id: 846
+  slug: bleakwind-storm
+  name: Bleakwind Storm
+  url: https://pokeapi.co/api/v2/move/846/
+- id: 847
+  slug: wildbolt-storm
+  name: Wildbolt Storm
+  url: https://pokeapi.co/api/v2/move/847/
+- id: 848
+  slug: sandsear-storm
+  name: Sandsear Storm
+  url: https://pokeapi.co/api/v2/move/848/
+- id: 849
+  slug: lunar-blessing
+  name: Lunar Blessing
+  url: https://pokeapi.co/api/v2/move/849/
+- id: 850
+  slug: take-heart
+  name: Take Heart
+  url: https://pokeapi.co/api/v2/move/850/
+- id: 851
+  slug: tera-blast
+  name: Tera Blast
+  url: https://pokeapi.co/api/v2/move/851/
+- id: 852
+  slug: silk-trap
+  name: Silk Trap
+  url: https://pokeapi.co/api/v2/move/852/
+- id: 853
+  slug: axe-kick
+  name: Axe Kick
+  url: https://pokeapi.co/api/v2/move/853/
+- id: 854
+  slug: last-respects
+  name: Last Respects
+  url: https://pokeapi.co/api/v2/move/854/
+- id: 855
+  slug: lumina-crash
+  name: Lumina Crash
+  url: https://pokeapi.co/api/v2/move/855/
+- id: 856
+  slug: order-up
+  name: Order Up
+  url: https://pokeapi.co/api/v2/move/856/
+- id: 857
+  slug: jet-punch
+  name: Jet Punch
+  url: https://pokeapi.co/api/v2/move/857/
+- id: 858
+  slug: spicy-extract
+  name: Spicy Extract
+  url: https://pokeapi.co/api/v2/move/858/
+- id: 859
+  slug: spin-out
+  name: Spin Out
+  url: https://pokeapi.co/api/v2/move/859/
+- id: 860
+  slug: population-bomb
+  name: Population Bomb
+  url: https://pokeapi.co/api/v2/move/860/
+- id: 861
+  slug: ice-spinner
+  name: Ice Spinner
+  url: https://pokeapi.co/api/v2/move/861/
+- id: 862
+  slug: glaive-rush
+  name: Glaive Rush
+  url: https://pokeapi.co/api/v2/move/862/
+- id: 863
+  slug: revival-blessing
+  name: Revival Blessing
+  url: https://pokeapi.co/api/v2/move/863/
+- id: 864
+  slug: salt-cure
+  name: Salt Cure
+  url: https://pokeapi.co/api/v2/move/864/
+- id: 865
+  slug: triple-dive
+  name: Triple Dive
+  url: https://pokeapi.co/api/v2/move/865/
+- id: 866
+  slug: mortal-spin
+  name: Mortal Spin
+  url: https://pokeapi.co/api/v2/move/866/
+- id: 867
+  slug: doodle
+  name: Doodle
+  url: https://pokeapi.co/api/v2/move/867/
+- id: 868
+  slug: fillet-away
+  name: Fillet Away
+  url: https://pokeapi.co/api/v2/move/868/
+- id: 869
+  slug: kowtow-cleave
+  name: Kowtow Cleave
+  url: https://pokeapi.co/api/v2/move/869/
+- id: 870
+  slug: flower-trick
+  name: Flower Trick
+  url: https://pokeapi.co/api/v2/move/870/
+- id: 871
+  slug: torch-song
+  name: Torch Song
+  url: https://pokeapi.co/api/v2/move/871/
+- id: 872
+  slug: aqua-step
+  name: Aqua Step
+  url: https://pokeapi.co/api/v2/move/872/
+- id: 873
+  slug: raging-bull
+  name: Raging Bull
+  url: https://pokeapi.co/api/v2/move/873/
+- id: 874
+  slug: make-it-rain
+  name: Make It Rain
+  url: https://pokeapi.co/api/v2/move/874/
+- id: 875
+  slug: psyblade
+  name: Psyblade
+  url: https://pokeapi.co/api/v2/move/875/
+- id: 876
+  slug: hydro-steam
+  name: Hydro Steam
+  url: https://pokeapi.co/api/v2/move/876/
+- id: 877
+  slug: ruination
+  name: Ruination
+  url: https://pokeapi.co/api/v2/move/877/
+- id: 878
+  slug: collision-course
+  name: Collision Course
+  url: https://pokeapi.co/api/v2/move/878/
+- id: 879
+  slug: electro-drift
+  name: Electro Drift
+  url: https://pokeapi.co/api/v2/move/879/
+- id: 880
+  slug: shed-tail
+  name: Shed Tail
+  url: https://pokeapi.co/api/v2/move/880/
+- id: 881
+  slug: chilly-reception
+  name: Chilly Reception
+  url: https://pokeapi.co/api/v2/move/881/
+- id: 882
+  slug: tidy-up
+  name: Tidy Up
+  url: https://pokeapi.co/api/v2/move/882/
+- id: 883
+  slug: snowscape
+  name: Snowscape
+  url: https://pokeapi.co/api/v2/move/883/
+- id: 884
+  slug: pounce
+  name: Pounce
+  url: https://pokeapi.co/api/v2/move/884/
+- id: 885
+  slug: trailblaze
+  name: Trailblaze
+  url: https://pokeapi.co/api/v2/move/885/
+- id: 886
+  slug: chilling-water
+  name: Chilling Water
+  url: https://pokeapi.co/api/v2/move/886/
+- id: 887
+  slug: hyper-drill
+  name: Hyper Drill
+  url: https://pokeapi.co/api/v2/move/887/
+- id: 888
+  slug: twin-beam
+  name: Twin Beam
+  url: https://pokeapi.co/api/v2/move/888/
+- id: 889
+  slug: rage-fist
+  name: Rage Fist
+  url: https://pokeapi.co/api/v2/move/889/
+- id: 890
+  slug: armor-cannon
+  name: Armor Cannon
+  url: https://pokeapi.co/api/v2/move/890/
+- id: 891
+  slug: bitter-blade
+  name: Bitter Blade
+  url: https://pokeapi.co/api/v2/move/891/
+- id: 892
+  slug: double-shock
+  name: Double Shock
+  url: https://pokeapi.co/api/v2/move/892/
+- id: 893
+  slug: gigaton-hammer
+  name: Gigaton Hammer
+  url: https://pokeapi.co/api/v2/move/893/
+- id: 894
+  slug: comeuppance
+  name: Comeuppance
+  url: https://pokeapi.co/api/v2/move/894/
+- id: 895
+  slug: aqua-cutter
+  name: Aqua Cutter
+  url: https://pokeapi.co/api/v2/move/895/
+- id: 896
+  slug: blazing-torque
+  name: Blazing Torque
+  url: https://pokeapi.co/api/v2/move/896/
+- id: 897
+  slug: wicked-torque
+  name: Wicked Torque
+  url: https://pokeapi.co/api/v2/move/897/
+- id: 898
+  slug: noxious-torque
+  name: Noxious Torque
+  url: https://pokeapi.co/api/v2/move/898/
+- id: 899
+  slug: combat-torque
+  name: Combat Torque
+  url: https://pokeapi.co/api/v2/move/899/
+- id: 900
+  slug: magical-torque
+  name: Magical Torque
+  url: https://pokeapi.co/api/v2/move/900/
+- id: 901
+  slug: blood-moon
+  name: Blood Moon
+  url: https://pokeapi.co/api/v2/move/901/
+- id: 902
+  slug: matcha-gotcha
+  name: Matcha Gotcha
+  url: https://pokeapi.co/api/v2/move/902/
+- id: 903
+  slug: syrup-bomb
+  name: Syrup Bomb
+  url: https://pokeapi.co/api/v2/move/903/
+- id: 904
+  slug: ivy-cudgel
+  name: Ivy Cudgel
+  url: https://pokeapi.co/api/v2/move/904/
+- id: 905
+  slug: electro-shot
+  name: Electro Shot
+  url: https://pokeapi.co/api/v2/move/905/
+- id: 906
+  slug: tera-starstorm
+  name: Tera Starstorm
+  url: https://pokeapi.co/api/v2/move/906/
+- id: 907
+  slug: fickle-beam
+  name: Fickle Beam
+  url: https://pokeapi.co/api/v2/move/907/
+- id: 908
+  slug: burning-bulwark
+  name: Burning Bulwark
+  url: https://pokeapi.co/api/v2/move/908/
+- id: 909
+  slug: thunderclap
+  name: Thunderclap
+  url: https://pokeapi.co/api/v2/move/909/
+- id: 910
+  slug: mighty-cleave
+  name: Mighty Cleave
+  url: https://pokeapi.co/api/v2/move/910/
+- id: 911
+  slug: tachyon-cutter
+  name: Tachyon Cutter
+  url: https://pokeapi.co/api/v2/move/911/
+- id: 912
+  slug: hard-press
+  name: Hard Press
+  url: https://pokeapi.co/api/v2/move/912/
+- id: 913
+  slug: dragon-cheer
+  name: Dragon Cheer
+  url: https://pokeapi.co/api/v2/move/913/
+- id: 914
+  slug: alluring-voice
+  name: Alluring Voice
+  url: https://pokeapi.co/api/v2/move/914/
+- id: 915
+  slug: temper-flare
+  name: Temper Flare
+  url: https://pokeapi.co/api/v2/move/915/
+- id: 916
+  slug: supercell-slam
+  name: Supercell Slam
+  url: https://pokeapi.co/api/v2/move/916/
+- id: 917
+  slug: psychic-noise
+  name: Psychic Noise
+  url: https://pokeapi.co/api/v2/move/917/
+- id: 918
+  slug: upper-hand
+  name: Upper Hand
+  url: https://pokeapi.co/api/v2/move/918/
+- id: 919
+  slug: malignant-chain
+  name: Malignant Chain
+  url: https://pokeapi.co/api/v2/move/919/
+- id: 10001
+  slug: shadow-rush
+  name: Shadow Rush
+  url: https://pokeapi.co/api/v2/move/10001/
+- id: 10002
+  slug: shadow-blast
+  name: Shadow Blast
+  url: https://pokeapi.co/api/v2/move/10002/
+- id: 10003
+  slug: shadow-blitz
+  name: Shadow Blitz
+  url: https://pokeapi.co/api/v2/move/10003/
+- id: 10004
+  slug: shadow-bolt
+  name: Shadow Bolt
+  url: https://pokeapi.co/api/v2/move/10004/
+- id: 10005
+  slug: shadow-break
+  name: Shadow Break
+  url: https://pokeapi.co/api/v2/move/10005/
+- id: 10006
+  slug: shadow-chill
+  name: Shadow Chill
+  url: https://pokeapi.co/api/v2/move/10006/
+- id: 10007
+  slug: shadow-end
+  name: Shadow End
+  url: https://pokeapi.co/api/v2/move/10007/
+- id: 10008
+  slug: shadow-fire
+  name: Shadow Fire
+  url: https://pokeapi.co/api/v2/move/10008/
+- id: 10009
+  slug: shadow-rave
+  name: Shadow Rave
+  url: https://pokeapi.co/api/v2/move/10009/
+- id: 10010
+  slug: shadow-storm
+  name: Shadow Storm
+  url: https://pokeapi.co/api/v2/move/10010/
+- id: 10011
+  slug: shadow-wave
+  name: Shadow Wave
+  url: https://pokeapi.co/api/v2/move/10011/
+- id: 10012
+  slug: shadow-down
+  name: Shadow Down
+  url: https://pokeapi.co/api/v2/move/10012/
+- id: 10013
+  slug: shadow-half
+  name: Shadow Half
+  url: https://pokeapi.co/api/v2/move/10013/
+- id: 10014
+  slug: shadow-hold
+  name: Shadow Hold
+  url: https://pokeapi.co/api/v2/move/10014/
+- id: 10015
+  slug: shadow-mist
+  name: Shadow Mist
+  url: https://pokeapi.co/api/v2/move/10015/
+- id: 10016
+  slug: shadow-panic
+  name: Shadow Panic
+  url: https://pokeapi.co/api/v2/move/10016/
+- id: 10017
+  slug: shadow-shed
+  name: Shadow Shed
+  url: https://pokeapi.co/api/v2/move/10017/
+- id: 10018
+  slug: shadow-sky
+  name: Shadow Sky
+  url: https://pokeapi.co/api/v2/move/10018/
