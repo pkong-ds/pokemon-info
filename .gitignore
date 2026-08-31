@@ -1,1 +1,8 @@
-dist
+dist/
+.DS_Store
+
+# snapcraft build artifacts
+*.snap
+/parts/
+/stage/
+/prime/
