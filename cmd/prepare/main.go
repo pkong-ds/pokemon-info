@@ -45,15 +45,18 @@ var resource string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "pokemoncli",
-	Short: "A CLI to fetch Pokémon data from PokeAPI.",
-	Long: `pokemoncli is a command-line tool that fetches data about all Pokémon
-from the PokeAPI (pokeapi.co) and outputs it in various formats (JSON, YAML, CSV).
+	Use:   "prepare",
+	Short: "Regenerates the pokemon-info Catalog from PokeAPI.",
+	Long: `prepare is a maintainer-only tool that regenerates the pokemon-info
+Catalog (the name lists embedded in the binary at build time) from the
+PokeAPI (pokeapi.co). It outputs the fetched entries as JSON, YAML, or CSV.
+
+It never ships inside the snap; users get Catalog updates via snap refresh.
 
 Examples:
-  pokemoncli -f yaml -o pokemons.yaml
-  pokemoncli -f csv > pokemons.csv
-  pokemoncli --output-format json`,
+  prepare --output-format yaml --resource pokemon --output-file cmd/pokemon-info/pokemons.yaml
+  prepare --output-format yaml --resource move --output-file cmd/pokemon-info/moves.yaml
+  prepare --output-format csv > pokemons.csv`,
 	// RunE is used for commands that return an error
 	RunE: func(cmd *cobra.Command, args []string) error {
 		// Validate output format

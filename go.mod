@@ -1,4 +1,4 @@
-module github.com/pkong-ds/pokemon_info/prepare
+module github.com/pkong-ds/pokemon-info
 
 go 1.24.3
 

@@ -71,10 +71,6 @@ func init() {
 
 	// Register subcommands
 	rootCmd.AddCommand(movesCmd)
-
-	// Cobra also supports generating completion commands automatically
-	// We add it here, so the user can run `pokemon_info completion bash` etc.
-	rootCmd.CompletionOptions.HiddenDefaultCmd = true // Hide the default 'completion' subcommand from help
 }
 
 func main() {
@@ -85,12 +81,12 @@ func main() {
 }
 
 var rootCmd = &cobra.Command{
-	Use:   "pokemon_info <pokemon_name>",
+	Use:   "pokemon-info <pokemon-name>",
 	Short: "Fetches info for a given Pokémon.",
-	Long: `pokemon_info is a CLI tool to display the base statistics
+	Long: `pokemon-info is a CLI tool to display the base statistics
 of a specified Pokémon. It features autocompletion for Pokémon names loaded from a YAML file.`,
-	Example: `  pokemon_info Pikachu
-  pokemon_info Char`, // User types Char then TAB
+	Example: `  pokemon-info Pikachu
+  pokemon-info Char`, // User types Char then TAB
 	Args: cobra.ExactArgs(1), // Expects exactly one argument
 	Run: func(cmd *cobra.Command, args []string) {
 
@@ -137,8 +133,8 @@ var movesCmd = &cobra.Command{
 	Use:   "moves <move_name>",
 	Short: "Fetches info for a given Pokémon move.",
 	Long:  `Fetches and displays detailed information about a Pokémon move from PokeAPI.`,
-	Example: `  pokemon_info moves thunderbolt
-  pokemon_info moves thunder-punch`,
+	Example: `  pokemon-info moves thunderbolt
+  pokemon-info moves thunder-punch`,
 	Args: cobra.ExactArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
 		moveNameInput := args[0]
