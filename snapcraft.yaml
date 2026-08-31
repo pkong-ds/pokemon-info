@@ -1,14 +1,16 @@
 name: pokemon-info
 title: Pokemon Info
-version: "0.1.0"
-summary: Look up Pokemon stats and moves from the command line
+version: "0.2.0"
+summary: Interactive terminal Pokedex with TUI browsing and CLI lookups
 issues: https://github.com/pkong-ds/pokemon-info/issues
 source-code: https://github.com/pkong-ds/pokemon-info
 description: |
-  A terminal Pokedex. Type a few letters, hit TAB, and pick from every
-  Pokemon or move name, then get stats, types, abilities, evolution
-  chains, move effects and flavor text straight from PokeAPI. Name
-  completion is embedded in the binary, so TAB is instant and works
+  A terminal Pokedex. Run it bare for an interactive TUI: browse every
+  Pokemon and move with a fuzzy filter, embedded truecolor ASCII art,
+  stat bars, type badges, evolution chains and flavor text, with the
+  details fetched live from PokeAPI. Or stay on the command line: type
+  a few letters, hit TAB, and pick from every Pokemon or move name.
+  Name completion and art are embedded in the binary, so they work
   offline; details are fetched live.
 license: MIT
 base: core24
