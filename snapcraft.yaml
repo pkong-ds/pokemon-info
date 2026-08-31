@@ -2,6 +2,8 @@ name: pokemon-info
 title: Pokemon Info
 version: "0.1.0"
 summary: Look up Pokemon stats and moves from the command line
+issues: https://github.com/pkong-ds/pokemon-info/issues
+source-code: https://github.com/pkong-ds/pokemon-info
 description: |
   A terminal Pokedex. Type a few letters, hit TAB, and pick from every
   Pokemon or move name, then get stats, types, abilities, evolution
@@ -19,7 +21,7 @@ platforms:
 
 apps:
   pokemon-info:
-    command: pokemon-info
+    command: bin/pokemon-info
     completer: pokemon-info.bash
 
 parts:
