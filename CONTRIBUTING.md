@@ -19,6 +19,8 @@ command that never ships in the snap:
 make catalog
 ```
 
+If the counts changed, bump the catalog badge at the top of README.md.
+
 ## Regenerating the demo GIFs
 
 The README GIFs are recorded with

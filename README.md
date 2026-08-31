@@ -1,5 +1,8 @@
 # pokemon-info
 
+[![CI](https://img.shields.io/github/actions/workflow/status/pkong-ds/pokemon-info/ci.yml?branch=main)](https://github.com/pkong-ds/pokemon-info/actions)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+![Pokémon catalog](https://img.shields.io/badge/1302%20Pok%C3%A9mon%20%C2%B7%20937%20moves-embedded%20catalog-ee1515)
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/pokemon-info)
 
 A terminal Pokédex: an interactive TUI for browsing, and a one-shot CLI
