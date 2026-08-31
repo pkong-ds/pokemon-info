@@ -1,8 +1,51 @@
 # pokemon-info
 
-A terminal Pokédex. Type a few letters, hit TAB, and pick from every Pokémon
+A terminal Pokédex. Run it bare for an interactive TUI, or stay on the
+command line: type a few letters, hit TAB, and pick from every Pokémon
 or move name — then get stats, types, abilities, evolution chains, move
 effects, and flavor text straight from [PokeAPI](https://pokeapi.co).
+
+```
+$ pokemon-info                 # interactive TUI (default in a terminal)
+$ pokemon-info pikachu          # classic one-shot CLI lookup
+$ pokemon-info moves thunderbolt
+```
+
+## Interactive TUI
+
+Running `pokemon-info` with no arguments in a terminal opens the TUI
+(`pokemon-info ui` does the same explicitly; piped invocations print help
+instead) straight into the Pokémon browser. Press `esc` to reach the
+slash-command menu.
+
+Slash commands:
+
+- `/pokemons` — browse all Pokémon: fuzzy filter, embedded truecolor ASCII
+  art, stat bars, type badges, abilities, evolution chain, and flavor text
+  in the detail pane.
+- `/moves` — browse all moves: type/damage class, power/accuracy/PP,
+  effect, meta, stat changes, flavor text, learned-by count.
+- `/help` — keybindings; `/quit` — exit.
+
+Keybindings inside a browser: `↑↓`/`jk` move, `/` filter, `enter` reload
+details, `f` cycle Pokémon art (small → large → off), `esc` back to the
+menu, `q` quit. Details are fetched live from PokeAPI as you browse (the
+name catalog and art are embedded, so they work offline). Art wider than
+the detail pane is hidden automatically.
+
+## Credits
+
+- [PokeAPI](https://pokeapi.co) — all live data, and the embedded name
+  catalog.
+- [poketex](https://github.com/ckaznable/poketex) by ckaznable — the TUI
+  browsing experience this interface is inspired by, and the tree we
+  bundled the gen 9 art from.
+- [pokemon-colorscripts](https://gitlab.com/phoneybadber/pokemon-colorscripts)
+  by phoneybadber (MIT) — the embedded ANSI Pokémon art (gen 1–8).
+- Caruban's generation 9 resource pack (bundled via
+  [poketex #58](https://github.com/ckaznable/poketex/pull/58)) — gen 9 art.
+
+## Command line
 
 ```
 $ pokemon-info pi<TAB>

@@ -79,11 +79,11 @@ type APIResource struct {
 
 // PastMoveStatValues holds historical stat values for a move across version groups.
 type PastMoveStatValues struct {
-	Accuracy      *int             `json:"accuracy"`
-	EffectChance  *int             `json:"effect_chance"`
-	Power         *int             `json:"power"`
-	PP            *int             `json:"pp"`
-	EffectEntries []VerboseEffect  `json:"effect_entries"`
+	Accuracy      *int              `json:"accuracy"`
+	EffectChance  *int              `json:"effect_chance"`
+	Power         *int              `json:"power"`
+	PP            *int              `json:"pp"`
+	EffectEntries []VerboseEffect   `json:"effect_entries"`
 	Type          *NamedAPIResource `json:"type"`
-	VersionGroup  NamedAPIResource `json:"version_group"`
+	VersionGroup  NamedAPIResource  `json:"version_group"`
 }

@@ -62,6 +62,7 @@ func init() {
 
 	// Register subcommands
 	rootCmd.AddCommand(movesCmd)
+	rootCmd.AddCommand(uiCmd)
 }
 
 func main() {
@@ -72,14 +73,25 @@ func main() {
 }
 
 var rootCmd = &cobra.Command{
-	Use:   "pokemon-info <pokemon-name>",
+	Use:   "pokemon-info [pokemon-name]",
 	Short: "Fetches info for a given Pokémon.",
 	Long: `pokemon-info is a CLI tool to display the base statistics
-of a specified Pokémon. It features autocompletion for Pokémon names loaded from a YAML file.`,
-	Example: `  pokemon-info Pikachu
+of a specified Pokémon. It features autocompletion for Pokémon names loaded from a YAML file.
+
+Run without arguments in a terminal to launch the interactive TUI browser
+(or run "pokemon-info ui").`,
+	Example: `  pokemon-info
+  pokemon-info Pikachu
   pokemon-info Char`, // User types Char then TAB
-	Args: cobra.ExactArgs(1), // Expects exactly one argument
+	Args: cobra.MaximumNArgs(1), // Zero args launches the TUI; one arg looks up a Pokémon
 	Run: func(cmd *cobra.Command, args []string) {
+		if len(args) == 0 {
+			if maybeRunTUI() {
+				return
+			}
+			_ = cmd.Help()
+			return
+		}
 
 		targetPokemonEntry := resolveWithSuggestions(allPokemonEntries, args[0], "Pokémon")
 		if targetPokemonEntry == nil {
