@@ -1,0 +1,29 @@
+name: pokemon-info
+title: Pokemon Info
+version: "0.1.0"
+summary: Look up Pokemon stats and moves from the command line
+description: |
+  A terminal Pokedex. Type a few letters, hit TAB, and pick from every
+  Pokemon or move name, then get stats, types, abilities, evolution
+  chains, move effects and flavor text straight from PokeAPI. Name
+  completion is embedded in the binary, so TAB is instant and works
+  offline; details are fetched live.
+license: MIT
+base: core24
+confinement: strict
+grade: stable
+
+apps:
+  pokemon-info:
+    command: pokemon-info
+    completer: pokemon-info.bash
+
+parts:
+  pokemon-info:
+    plugin: go
+    source: .
+    build-snaps:
+      - go/latest/stable
+    override-build: |
+      go build -o "${CRAFT_PART_INSTALL}/bin/pokemon-info" ./cmd/pokemon-info
+      "${CRAFT_PART_INSTALL}/bin/pokemon-info" completion bash > "${CRAFT_PART_INSTALL}/pokemon-info.bash"
