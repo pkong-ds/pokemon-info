@@ -60,6 +60,7 @@ type browserModel struct {
 	cache    map[string]any
 	fetching map[string]bool
 	lastIdx  int
+	lastSlug string
 	width    int
 	height   int
 	artMode  artMode
@@ -206,6 +207,9 @@ func (b *browserModel) Update(msg tea.Msg) (tea.Cmd, browserAction) {
 		}
 		switch msg.String() {
 		case "esc":
+			if b.list.FilterState() == list.FilterApplied {
+				return b.forward(msg), actNone
+			}
 			return nil, actBack
 		case "q":
 			return nil, actQuit
@@ -224,16 +228,21 @@ func (b *browserModel) Update(msg tea.Msg) (tea.Cmd, browserAction) {
 			return b.forward(msg), actNone
 		}
 	}
-	return nil, actNone
+	// Forward everything else to the list: FilterMatchesMsg and friends
+	// only take effect when the list's Update sees them.
+	return b.forward(msg), actNone
 }
 
 // forward passes msg to the list and schedules a debounced detail fetch
-// when the selection changed.
+// when the selection changed. Selection is compared by index AND slug:
+// filtering can narrow the list around the same index while replacing
+// the selected item.
 func (b *browserModel) forward(msg tea.Msg) tea.Cmd {
 	newList, cmd := b.list.Update(msg)
 	b.list = newList
-	if idx := b.list.Index(); idx != b.lastIdx {
+	if idx := b.list.Index(); idx != b.lastIdx || b.selectedItem().slug != b.lastSlug {
 		b.lastIdx = idx
+		b.lastSlug = b.selectedItem().slug
 		wait := tea.Tick(250*time.Millisecond, func(time.Time) tea.Msg {
 			return selectionTick{idx}
 		})
