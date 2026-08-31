@@ -42,9 +42,11 @@ filtering work offline; details are fetched live from PokeAPI. Press
 
 ![Moves browser](docs/moves.gif)
 
-## Command line
+The moves browser is one `esc` away: down to `/moves`, enter — then the
+same live `/`-filtering (typing narrows as you go, details follow the
+selection).
 
-![CLI name completion](docs/cli.gif)
+## Command line
 
 ```
 $ pokemon-info pi<TAB>

@@ -13,7 +13,6 @@ catalog:
 demos:
 	vhs docs/tapes/demo.tape
 	vhs docs/tapes/moves.tape
-	vhs docs/tapes/cli.tape
 
 clean:
 	rm -rf dist
