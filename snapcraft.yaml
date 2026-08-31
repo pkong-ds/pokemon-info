@@ -13,6 +13,10 @@ base: core24
 confinement: strict
 grade: stable
 
+platforms:
+  amd64:
+  arm64:
+
 apps:
   pokemon-info:
     command: pokemon-info
