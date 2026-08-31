@@ -23,6 +23,8 @@ apps:
   pokemon-info:
     command: bin/pokemon-info
     completer: pokemon-info.bash
+    plugs:
+      - network
 
 parts:
   pokemon-info:
