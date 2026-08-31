@@ -25,7 +25,8 @@ offline. Details are fetched live from PokeAPI when you look something up.
   text, and how many Pokémon learn it.
 
 Both English display names ("Thunderbolt") and PokeAPI slugs
-("thunderbolt", "mr-mime") are accepted as input.
+("thunderbolt", "mr-mime") are accepted as input. A unique name prefix
+resolves too ("zek" → Zekrom); ambiguous prefixes list their candidates.
 
 ## Install
 
