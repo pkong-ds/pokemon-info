@@ -1,5 +1,7 @@
 # pokemon-info
 
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/pokemon-info)
+
 A terminal Pokédex. Run it bare for an interactive TUI, or stay on the
 command line: type a few letters, hit TAB, and pick from every Pokémon
 or move name — then get stats, types, abilities, evolution chains, move

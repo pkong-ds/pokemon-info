@@ -2,6 +2,7 @@ name: pokemon-info
 title: Pokemon Info
 version: "0.2.0"
 summary: Interactive terminal Pokedex with TUI browsing and CLI lookups
+website: https://github.com/pkong-ds/pokemon-info
 issues: https://github.com/pkong-ds/pokemon-info/issues
 source-code: https://github.com/pkong-ds/pokemon-info
 description: |
