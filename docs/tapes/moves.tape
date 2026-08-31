@@ -1,4 +1,4 @@
-Output doc/moves.gif
+Output docs/moves.gif
 Set FontSize 15
 Set Width 1200
 Set Height 640

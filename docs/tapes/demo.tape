@@ -1,4 +1,4 @@
-Output doc/demo.gif
+Output docs/demo.gif
 Set FontSize 15
 Set Width 1200
 Set Height 640

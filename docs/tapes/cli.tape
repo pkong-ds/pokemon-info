@@ -1,4 +1,4 @@
-Output doc/cli.gif
+Output docs/cli.gif
 Set Shell "zsh"
 Set FontSize 15
 Set Width 1000

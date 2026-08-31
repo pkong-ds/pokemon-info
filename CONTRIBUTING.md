@@ -23,7 +23,7 @@ make catalog
 
 The README GIFs are recorded with
 [vhs](https://github.com/charmbracelet/vhs) from the tapes in
-`doc/tapes/`:
+`docs/tapes/`:
 
 ```
 make demos

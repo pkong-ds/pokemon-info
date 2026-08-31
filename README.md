@@ -6,7 +6,7 @@ A terminal Pokédex: an interactive TUI for browsing, and a one-shot CLI
 for lookups — every Pokémon and every move, with data from
 [PokeAPI](https://pokeapi.co).
 
-![TUI demo](doc/demo.gif)
+![TUI demo](docs/demo.gif)
 
 ```
 $ pokemon-info                 # interactive TUI (default in a terminal)
@@ -40,11 +40,11 @@ with `f`. The name catalog and art are embedded, so browsing and
 filtering work offline; details are fetched live from PokeAPI. Press
 `/help` in-app for every keybinding.
 
-![Moves browser](doc/moves.gif)
+![Moves browser](docs/moves.gif)
 
 ## Command line
 
-![CLI name completion](doc/cli.gif)
+![CLI name completion](docs/cli.gif)
 
 ```
 $ pokemon-info pi<TAB>

@@ -11,9 +11,9 @@ catalog:
 	go run ./cmd/prepare --output-format yaml --resource move --output-file cmd/pokemon-info/moves.yaml
 
 demos:
-	vhs doc/tapes/demo.tape
-	vhs doc/tapes/moves.tape
-	vhs doc/tapes/cli.tape
+	vhs docs/tapes/demo.tape
+	vhs docs/tapes/moves.tape
+	vhs docs/tapes/cli.tape
 
 clean:
 	rm -rf dist
