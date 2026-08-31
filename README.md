@@ -69,6 +69,9 @@ pokemon-info completion bash > ~/.local/share/bash-completion/completions/pokemo
 pokemon-info completion fish > ~/.config/fish/completions/pokemon-info.fish
 ```
 
+If zsh completions don't appear after (re)installing, clear the completion
+cache and restart your shell: `rm -f ~/.zcompdump*` then `exec zsh`.
+
 ## Data freshness
 
 The name catalog is baked into the binary at build time. When a new Pokémon
