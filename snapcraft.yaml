@@ -36,5 +36,5 @@ parts:
     build-snaps:
       - go/latest/stable
     override-build: |
-      CGO_ENABLED=0 go build -o "${CRAFT_PART_INSTALL}/bin/pokemon-info" ./cmd/pokemon-info
-      "${CRAFT_PART_INSTALL}/bin/pokemon-info" completion bash > "${CRAFT_PART_INSTALL}/pokemon-info.bash"
+      CGO_ENABLED=0 GOARCH="${CRAFT_TARGET_ARCH}" go build -o "${CRAFT_PART_INSTALL}/bin/pokemon-info" ./cmd/pokemon-info
+      CGO_ENABLED=0 GOARCH="$(go env GOHOSTARCH)" go run ./cmd/pokemon-info completion bash > "${CRAFT_PART_INSTALL}/pokemon-info.bash"
