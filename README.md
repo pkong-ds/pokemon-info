@@ -79,6 +79,8 @@ $ pokemon-info Pikachu
 
 $ pokemon-info moves thunder<TAB>
 $ pokemon-info moves thunderbolt
+
+$ pokemon-info version
 ```
 
 English display names ("Thunderbolt"), PokeAPI slugs ("mr-mime"), and
