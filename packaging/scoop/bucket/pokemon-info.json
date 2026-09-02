@@ -7,7 +7,7 @@
     "64bit": {
       "url": "https://github.com/pkong-ds/pokemon-info/releases/download/v0.3.0/pokemon-info-0.3.0-windows-amd64.zip",
       "extract_dir": "pokemon-info-0.3.0-windows-amd64",
-      "hash": "REPLACE_WITH_SHA256_OF_pokemon-info-0.3.0-windows-amd64.zip"
+      "hash": "f97daf09c8a86b048c5d8070bb9371062d77478d1ba33ad2d536e7d1273cfa18"
     }
   },
   "bin": "pokemon-info.exe",
