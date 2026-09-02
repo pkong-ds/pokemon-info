@@ -21,6 +21,18 @@ stale between releases; a snap refresh fixes it.
 from PokeAPI. Lives in the repository, never ships in the snap. Not part of
 the user-facing product.
 
+## Tap
+
+**Tap** — the self-published Homebrew repository (`pkong-ds/homebrew-tap`)
+holding the pokemon-info Formula. Exists because homebrew-core's acceptance
+bar is out of reach until the project has adoption. See ADR 0003.
+
+## Bucket
+
+**Bucket** — the self-published Scoop repository (`pkong-ds/scoop-bucket`)
+holding the pokemon-info manifest (Windows). Same reason as the Tap. See
+ADR 0003.
+
 ## TUI
 
 **TUI** — the interactive terminal interface. Launched by default when the

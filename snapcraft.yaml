@@ -1,6 +1,6 @@
 name: pokemon-info
 title: Pokemon Info
-version: "0.2.1"
+version: "0.3.0"
 summary: Interactive terminal Pokedex with TUI browsing and CLI lookups
 website: https://github.com/pkong-ds/pokemon-info
 issues: https://github.com/pkong-ds/pokemon-info/issues
@@ -36,5 +36,5 @@ parts:
     build-snaps:
       - go/latest/stable
     override-build: |
-      CGO_ENABLED=0 GOARCH="${CRAFT_ARCH_BUILD_FOR}" go build -o "${CRAFT_PART_INSTALL}/bin/pokemon-info" ./cmd/pokemon-info
+      CGO_ENABLED=0 GOARCH="${CRAFT_ARCH_BUILD_FOR}" go build -trimpath -ldflags "-s -w -X main.version=v${CRAFT_PROJECT_VERSION}" -o "${CRAFT_PART_INSTALL}/bin/pokemon-info" ./cmd/pokemon-info
       CGO_ENABLED=0 GOARCH="$(go env GOHOSTARCH)" go run ./cmd/pokemon-info completion bash > "${CRAFT_PART_INSTALL}/pokemon-info.bash"

@@ -1,7 +1,9 @@
 .PHONY: build test catalog demos clean
 
+VERSION ?= $(shell git describe --tags --always --dirty)
+
 build:
-	go build -o dist/pokemon-info ./cmd/pokemon-info
+	go build -trimpath -ldflags "-s -w -X main.version=$(VERSION)" -o dist/pokemon-info ./cmd/pokemon-info
 
 test:
 	go vet ./... && go test ./...

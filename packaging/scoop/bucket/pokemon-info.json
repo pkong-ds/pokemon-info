@@ -1,0 +1,29 @@
+{
+  "version": "0.3.0",
+  "description": "Terminal Pokedex with TUI browsing and CLI lookups",
+  "homepage": "https://github.com/pkong-ds/pokemon-info",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/pkong-ds/pokemon-info/releases/download/v0.3.0/pokemon-info-0.3.0-windows-amd64.zip",
+      "extract_dir": "pokemon-info-0.3.0-windows-amd64",
+      "hash": "REPLACE_WITH_SHA256_OF_pokemon-info-0.3.0-windows-amd64.zip"
+    }
+  },
+  "bin": "pokemon-info.exe",
+  "checkver": {
+    "github": "https://github.com/pkong-ds/pokemon-info"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/pkong-ds/pokemon-info/releases/download/v$version/pokemon-info-$version-windows-amd64.zip",
+        "extract_dir": "pokemon-info-$version-windows-amd64",
+        "hash": {
+          "url": "https://github.com/pkong-ds/pokemon-info/releases/download/v$version/checksums.txt",
+          "regex": "([a-f0-9]{64})\\s+pokemon-info-$version-windows-amd64\\.zip"
+        }
+      }
+    }
+  }
+}

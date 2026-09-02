@@ -36,6 +36,9 @@ type MoveEntry struct {
 var allPokemonEntries []PokemonEntry
 var allMoveEntries []MoveEntry
 
+// version is set at build time via -ldflags "-X main.version=vX.Y.Z".
+var version = "dev"
+
 // This init function will run once when the package is initialized.
 func init() {
 	// Load and parse Pokémon names from the embedded YAML file.
@@ -63,6 +66,7 @@ func init() {
 	// Register subcommands
 	rootCmd.AddCommand(movesCmd)
 	rootCmd.AddCommand(uiCmd)
+	rootCmd.AddCommand(versionCmd)
 }
 
 func main() {
@@ -110,6 +114,15 @@ Run without arguments in a terminal to launch the interactive TUI browser
 		// ShellCompDirectiveNoFileComp tells the shell to not perform file completion
 		// if our suggestions don't match.
 		return suggestNames(allPokemonEntries, toComplete), cobra.ShellCompDirectiveNoFileComp | cobra.ShellCompDirectiveNoSpace
+	},
+}
+
+var versionCmd = &cobra.Command{
+	Use:   "version",
+	Short: "Print the pokemon-info version.",
+	Args:  cobra.NoArgs,
+	Run: func(cmd *cobra.Command, args []string) {
+		fmt.Println(version)
 	},
 }
 

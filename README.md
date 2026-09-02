@@ -19,7 +19,26 @@ $ pokemon-info moves thunderbolt
 
 ## Install
 
-From the Snap Store:
+One-liner (macOS and Linux; override the destination with `BIN_DIR=...`):
+
+```
+curl -fsSL https://raw.githubusercontent.com/pkong-ds/pokemon-info/main/scripts/install.sh | sh
+```
+
+Homebrew (macOS or Linux):
+
+```
+brew tap pkong-ds/tap && brew install pokemon-info
+```
+
+Scoop (Windows):
+
+```
+scoop bucket add pkong-ds https://github.com/pkong-ds/scoop-bucket
+scoop install pokemon-info
+```
+
+Snap (Linux):
 
 ```
 sudo snap install pokemon-info
@@ -96,8 +115,9 @@ completion cache and restart your shell: `rm -f ~/.zcompdump*` then
 ## Data freshness
 
 The name catalog is baked into the binary at build time. When a new
-Pokémon generation releases, names appear in completions after a `snap
-refresh` (or a rebuilt binary). Fetched details are always live.
+Pokémon generation releases, names appear in completions after an upgrade
+(`snap refresh`, `brew upgrade`, `scoop update`, or re-running the install
+script) — or a rebuilt binary. Fetched details are always live.
 
 ## Credits
 
