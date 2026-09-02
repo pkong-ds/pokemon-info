@@ -45,6 +45,25 @@ ui`). Piped invocations never launch it. Browsing inspired by poketex.
 Moves) with a live-fetched detail pane. `/pokemons` and `/moves` open
 Browsers from the landing page.
 
+## Detail Cache
+
+**Detail Cache** — the on-disk cache of PokeAPI detail responses
+(`os.UserCacheDir()/pokemon-info/`), keyed by URL path. Best-effort:
+30-day TTL by file mod time (see Config), silently skipped on any
+error. The in-memory session LRU (Browser
+`cache`) sits on top and prevents repeat fetches within a single
+session. The `/clearcache` TUI command or manual deletion clears stale
+entries. See ADR 0004.
+
+## Config
+
+**Config** — user settings persisted at
+`os.UserConfigDir()/pokemon-info/config.json`, edited via the
+`/config` TUI command. Holds the Detail Cache TTL. The
+`POKEMON_INFO_CACHE_TTL` env var overrides the file. The rate limit
+is not Config — it is a fixed server-citizenship contract. See ADR
+0004.
+
 ## Colorscripts
 
 **Colorscripts** — the embedded ANSI half-block Pokémon art (small and

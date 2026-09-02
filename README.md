@@ -62,7 +62,8 @@ Bare `pokemon-info` opens the TUI straight into the Pokémon browser;
 `esc` reaches the slash-command menu (`/pokemons`, `/moves`, `/help`,
 `/quit`). Browse with `↑↓`/`jk`, filter with `/`, cycle Pokémon art
 with `f`. The name catalog and art are embedded, so browsing and
-filtering work offline; details are fetched live from PokeAPI. Press
+filtering work offline; details are fetched live from PokeAPI (cached
+on disk for 30 days). Press
 `/help` in-app for every keybinding.
 
 ![Moves browser](docs/moves.gif)
@@ -86,7 +87,8 @@ $ pokemon-info version
 English display names ("Thunderbolt"), PokeAPI slugs ("mr-mime"), and
 unique prefixes ("zek" → Zekrom) all resolve; ambiguous prefixes list
 their candidates. Completion candidates are embedded in the binary, so
-TAB is instant and offline. Details are fetched live from PokeAPI.
+TAB is instant and offline. Details are fetched live from PokeAPI
+(cached on disk for 30 days).
 
 ## Shell completion
 
@@ -122,7 +124,10 @@ completion cache and restart your shell: `rm -f ~/.zcompdump*` then
 The name catalog is baked into the binary at build time. When a new
 Pokémon generation releases, names appear in completions after an upgrade
 (`snap refresh`, `brew upgrade`, `scoop update`, or re-running the install
-script) — or a rebuilt binary. Fetched details are always live.
+script) — or a rebuilt binary. Fetched details are live, cached on
+disk for 30 days — change it with the `/config` TUI command (or the
+`POKEMON_INFO_CACHE_TTL` env var); the `/clearcache` TUI command or
+manual deletion clears stale entries.
 
 ## Credits
 

@@ -19,14 +19,16 @@ evolution chains, move effects). Alternatives considered:
    PokeAPI client.
 
 Today the name list (id, slug, name, url) is generated into two YAML files
-and embedded at build time; all details are fetched live.
+and embedded at build time; all details are fetched live and cached on
+disk (Detail Cache, 30-day TTL; see ADR 0004).
 
 ## Decision
 
 Keep the hybrid: the Catalog (names/slugs/URLs) is embedded at build time and
 used for instant, offline shell completion and name resolution. Details are
-always fetched live from PokeAPI. Catalog staleness is accepted and resolved
-by shipping a new release (snap refresh).
+fetched live from PokeAPI and cached on disk (Detail Cache, 30-day TTL).
+Catalog staleness is accepted and resolved by shipping a new release (snap
+refresh).
 
 ## Consequences
 
