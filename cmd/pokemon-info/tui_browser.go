@@ -57,7 +57,7 @@ type browserModel struct {
 	list     list.Model
 	spinner  spinner.Model
 	entryOf  map[string]any
-	cache    map[string]any
+	cache    *lruCache
 	fetching map[string]bool
 	lastIdx  int
 	lastSlug string
@@ -93,7 +93,7 @@ func newBrowser(kind browseKind, width, height int) *browserModel {
 		kind:     kind,
 		spinner:  spinner.New(spinner.WithSpinner(spinner.Dot), spinner.WithStyle(dimStyle)),
 		entryOf:  map[string]any{},
-		cache:    map[string]any{},
+		cache:    newLRUCache(lruCap),
 		fetching: map[string]bool{},
 		width:    width,
 		height:   height,
@@ -169,9 +169,9 @@ func (b *browserModel) Update(msg tea.Msg) (tea.Cmd, browserAction) {
 	case detailResult:
 		b.fetching[msg.slug] = false
 		if msg.err != nil {
-			b.cache[msg.slug] = msg.err
+			b.cache.set(msg.slug, msg.err)
 		} else {
-			b.cache[msg.slug] = msg.val
+			b.cache.set(msg.slug, msg.val)
 		}
 		var cmd tea.Cmd
 		if len(b.fetching) > 0 {
@@ -193,7 +193,7 @@ func (b *browserModel) Update(msg tea.Msg) (tea.Cmd, browserAction) {
 			return nil, actNone
 		}
 		item := b.selectedItem()
-		if item.slug == "" || b.fetching[item.slug] || b.cache[item.slug] != nil {
+		if item.slug == "" || b.fetching[item.slug] || b.cache.has(item.slug) {
 			return nil, actNone
 		}
 		return tea.Batch(b.fetchCmd(item), spinner.Tick), actNone
@@ -289,7 +289,7 @@ func (b *browserModel) detailView(w int) string {
 }
 
 func (b *browserModel) detailBody(item browserItem, w int) string {
-	if v, ok := b.cache[item.slug]; ok {
+	if v, ok := b.cache.get(item.slug); ok {
 		if err, isErr := v.(error); isErr {
 			return errStyle.Render(err.Error()) + "\n\n" + dimStyle.Render("press enter to retry")
 		}

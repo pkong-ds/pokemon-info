@@ -3,36 +3,17 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io"
-	"net/http"
 	"os"
 	"strings"
 )
 
 // Helper function to fetch and unmarshal JSON
 func fetchAndUnmarshal(url string, target interface{}) error {
-	resp, err := httpClient.Get(url)
+	body, err := cachedGet(url)
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "Error fetching data from API: %v\n", err)
+		fmt.Fprintf(os.Stderr, "Error: %v\n", err)
 		os.Exit(1)
-		return fmt.Errorf("failed to fetch %s: %w", url, err)
 	}
-	defer resp.Body.Close()
-
-	if resp.StatusCode != http.StatusOK {
-		bodyBytes, _ := io.ReadAll(resp.Body)
-		fmt.Fprintf(os.Stderr, "Error: API request failed with status %s: %s\n", resp.Status, string(bodyBytes))
-		os.Exit(1)
-		return fmt.Errorf("API request to %s failed with status %s: %s", url, resp.Status, string(bodyBytes))
-	}
-
-	body, err := io.ReadAll(resp.Body)
-	if err != nil {
-		fmt.Fprintf(os.Stderr, "Error reading API response body: %v\n", err)
-		os.Exit(1)
-		return fmt.Errorf("failed to read response body from %s: %w", url, err)
-	}
-
 	if err := json.Unmarshal(body, target); err != nil {
 		return fmt.Errorf("failed to parse JSON from %s: %w", url, err)
 	}

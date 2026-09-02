@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"strings"
+	"time"
 
 	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
@@ -16,6 +17,7 @@ const (
 	pagePokemon
 	pageMoves
 	pageHelp
+	pageConfig
 )
 
 var (
@@ -31,28 +33,38 @@ var (
 )
 
 type slashCommand struct {
-	name string
-	desc string
-	page page
-	quit bool
+	name       string
+	desc       string
+	page       page
+	quit       bool
+	clearCache bool
 }
 
 var slashCommands = []slashCommand{
 	{name: "/pokemons", desc: "browse every Pokémon", page: pagePokemon},
 	{name: "/moves", desc: "browse every move", page: pageMoves},
 	{name: "/help", desc: "keybindings and about", page: pageHelp},
+	{name: "/config", desc: "settings", page: pageConfig},
+	{name: "/clearcache", desc: "clear the detail cache", clearCache: true},
 	{name: "/quit", desc: "exit", quit: true},
 }
 
 type rootModel struct {
-	page    page
-	width   int
-	height  int
-	input   textinput.Model
-	sel     int
-	pokemon *browserModel
-	moves   *browserModel
+	page        page
+	width       int
+	height      int
+	input       textinput.Model
+	configInput textinput.Model
+	sel         int
+	flash       string
+	configErr   string
+	pokemon     *browserModel
+	moves       *browserModel
 }
+
+type flashTickMsg struct{}
+
+const flashDuration = 2 * time.Second
 
 func runTUI() error {
 	ti := textinput.New()
@@ -61,7 +73,13 @@ func runTUI() error {
 	ti.PromptStyle = selStyle
 	ti.CharLimit = 32
 
-	m := rootModel{input: ti, page: pagePokemon}
+	ci := textinput.New()
+	ci.Placeholder = "e.g. 7d or 168h"
+	ci.Prompt = "› "
+	ci.PromptStyle = selStyle
+	ci.CharLimit = 16
+
+	m := rootModel{input: ti, configInput: ci, page: pagePokemon}
 	m.pokemon = newBrowser(kindPokemon, m.width, m.height)
 	_, err := tea.NewProgram(m, tea.WithAltScreen()).Run()
 	return err
@@ -86,6 +104,10 @@ func (m rootModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			m.moves.resize(msg.Width, msg.Height)
 		}
 		return m, nil
+	case flashTickMsg:
+		m.flash = ""
+		return m, nil
+
 	case tea.KeyMsg:
 		switch m.page {
 		case pageLanding:
@@ -96,6 +118,8 @@ func (m rootModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			}
 			m.page = pageLanding
 			return m, m.input.Focus()
+		case pageConfig:
+			return m.updateConfig(msg)
 		default:
 			cmd, act := m.browser().Update(msg)
 			switch act {
@@ -108,6 +132,11 @@ func (m rootModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			return m, cmd
 		}
 	default:
+		if m.page == pageConfig {
+			var cmd tea.Cmd
+			m.configInput, cmd = m.configInput.Update(msg)
+			return m, cmd
+		}
 		if m.page == pagePokemon || m.page == pageMoves {
 			cmd, _ := m.browser().Update(msg)
 			return m, cmd
@@ -183,10 +212,29 @@ func (m rootModel) execCommand(c slashCommand) (tea.Model, tea.Cmd) {
 	m.input.SetValue("")
 	m.sel = 0
 
+	if c.clearCache {
+		clearDiskCache()
+		if m.pokemon != nil {
+			m.pokemon.cache.clear()
+		}
+		if m.moves != nil {
+			m.moves.cache.clear()
+		}
+		m.flash = "detail cache cleared"
+		return m, tea.Tick(flashDuration, func(time.Time) tea.Msg {
+			return flashTickMsg{}
+		})
+	}
+
 	switch c.page {
 	case pageHelp:
 		m.page = pageHelp
 		return m, nil
+	case pageConfig:
+		m.page = pageConfig
+		m.configErr = ""
+		m.configInput.SetValue(ttlString(cacheTTL))
+		return m, m.configInput.Focus()
 	case pagePokemon:
 		if m.pokemon == nil {
 			m.pokemon = newBrowser(kindPokemon, m.width, m.height)
@@ -207,6 +255,8 @@ func (m rootModel) View() string {
 	switch m.page {
 	case pageHelp:
 		return m.viewHelp()
+	case pageConfig:
+		return m.viewConfig()
 	case pagePokemon:
 		return m.pokemon.View()
 	case pageMoves:
@@ -236,6 +286,10 @@ func (m rootModel) viewLanding() string {
 
 	b.WriteString("\n  ")
 	b.WriteString(m.input.View())
+	if m.flash != "" {
+		b.WriteString("\n\n  ")
+		b.WriteString(selStyle.Render(m.flash))
+	}
 	b.WriteString("\n\n")
 	b.WriteString(dimStyle.Render(fmt.Sprintf("  %d Pokémon · %d moves embedded · details fetched live from PokeAPI",
 		len(allPokemonEntries), len(allMoveEntries))))
@@ -262,5 +316,73 @@ func (m rootModel) viewHelp() string {
 	b.WriteString("  pokemon-colorscripts (phoneybadber) and poketex's gen 9\n")
 	b.WriteString("  pack (Caruban).\n\n")
 	b.WriteString(dimStyle.Render("  esc back"))
+	return padStyle.Render(b.String())
+}
+
+// updateConfig handles keys on the /config page: enter saves, esc cancels,
+// everything else edits the input.
+func (m rootModel) updateConfig(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
+	switch {
+	case msg.Type == tea.KeyCtrlC:
+		return m, tea.Quit
+	case msg.String() == "esc":
+		m.page = pageLanding
+		m.configInput.Blur()
+		return m, m.input.Focus()
+	case msg.String() == "enter":
+		d, err := parseCacheTTL(m.configInput.Value())
+		if err != nil {
+			m.configErr = "invalid — try 7d or 168h"
+			return m, nil
+		}
+		if err := saveConfig(userConfig{CacheTTL: ttlString(d)}); err != nil {
+			m.configErr = "failed to save: " + err.Error()
+			return m, nil
+		}
+		cacheTTL = d
+		m.flash = "cache TTL set to " + ttlString(d)
+		m.page = pageLanding
+		m.configInput.Blur()
+		return m, tea.Batch(
+			m.input.Focus(),
+			tea.Tick(flashDuration, func(time.Time) tea.Msg { return flashTickMsg{} }),
+		)
+	default:
+		m.configErr = ""
+		var cmd tea.Cmd
+		m.configInput, cmd = m.configInput.Update(msg)
+		return m, cmd
+	}
+}
+
+func (m rootModel) viewConfig() string {
+	var b strings.Builder
+	b.WriteString(titleStyle.Render("Settings"))
+	b.WriteString("\n\n")
+
+	b.WriteString("  Cache TTL: " + ttlString(cacheTTL))
+	b.WriteString(dimStyle.Render("  (" + cacheTTLSource() + ")"))
+	b.WriteString("\n")
+	if cacheTTLSource() == ttlSourceEnv {
+		b.WriteString(dimStyle.Render("  note: $POKEMON_INFO_CACHE_TTL overrides this page until unset"))
+		b.WriteString("\n")
+	}
+
+	b.WriteString("\n  New value:\n  ")
+	b.WriteString(m.configInput.View())
+
+	if v := m.configInput.Value(); v != "" {
+		if d, err := parseCacheTTL(v); err == nil {
+			b.WriteString("\n  " + dimStyle.Render("= "+ttlString(d)+" ("+d.String()+")"))
+		} else if m.configErr == "" {
+			b.WriteString("\n  " + dimStyle.Render("try 7d, 30d, or 168h"))
+		}
+	}
+	if m.configErr != "" {
+		b.WriteString("\n  " + errStyle.Render(m.configErr))
+	}
+
+	b.WriteString("\n\n")
+	b.WriteString(dimStyle.Render("  enter save · esc cancel"))
 	return padStyle.Render(b.String())
 }
