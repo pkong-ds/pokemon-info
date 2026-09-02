@@ -3,7 +3,6 @@
 [![CI](https://img.shields.io/github/actions/workflow/status/pkong-ds/pokemon-info/ci.yml?branch=main)](https://github.com/pkong-ds/pokemon-info/actions)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 ![Pokémon catalog](https://img.shields.io/badge/1302%20Pok%C3%A9mon%20%C2%B7%20937%20moves-embedded%20catalog-ee1515)
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/pokemon-info)
 
 A terminal Pokédex: an interactive TUI for browsing, and a one-shot CLI
 for lookups — every Pokémon and every move, with data from
@@ -18,6 +17,10 @@ $ pokemon-info moves thunderbolt
 ```
 
 ## Install
+
+[![Homebrew](https://img.shields.io/badge/Homebrew-tap-orange?logo=homebrew)](https://github.com/pkong-ds/homebrew-tap)
+[![Scoop](https://img.shields.io/badge/Scoop-bucket-blue?logo=scoop)](https://github.com/pkong-ds/scoop-bucket)
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/pokemon-info)
 
 One-liner (macOS and Linux; override the destination with `BIN_DIR=...`):
 
